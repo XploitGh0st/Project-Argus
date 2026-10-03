@@ -23,6 +23,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="DFG_CFG_Computation.py" />
+    <Compile Include="argus_ml\__init__.py" />
+    <Compile Include="argus_ml\models.py" />
+    <Compile Include="argus_ml\trainers.py" />
+    <Compile Include="argus_ml\metrics.py" />
+    <Compile Include="argus_ml\profiling.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />

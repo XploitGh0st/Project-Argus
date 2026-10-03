@@ -25,7 +25,7 @@ from pyverilog.dataflow.optimizer import VerilogDataflowOptimizer as PyDataflowO
 from pyverilog.vparser.parser import parse
 from sklearn.model_selection import train_test_split
 
-from hw2vec.graph2vec.trainers import *  # noqa: F401
+from argus_ml import GraphEncoder, TrojanTrainer, SimilarityTrainer  # noqa: F401
 
 # Module path setup
 sys.path.append(os.path.dirname(sys.path[0]))

@@ -471,8 +471,8 @@ pip install -r requirements.txt
 > [!NOTE]
 > PyVerilog requires **Icarus Verilog** (`iverilog`) to be installed and available on your system `PATH` for some parsing features. Download it from [http://iverilog.icarus.com](http://iverilog.icarus.com).
 
-> [!NOTE]
-> `hw2vec` must also be installed for the `JsonGraphParser` class. Follow its installation guide at [https://github.com/deep-hwsec/hw2vec](https://github.com/deep-hwsec/hw2vec).
+> [!TIP]
+> The `argus_ml` GNN engine is included in the `argus_ml/` directory — a purpose-built replacement for the abandoned `hw2vec` package. No external GNN library install is needed beyond `torch` and `torch_geometric`.
 
 ---
 
@@ -481,14 +481,16 @@ pip install -r requirements.txt
 | Package | Version | Purpose |
 |---|---|---|
 | `pyverilog` | latest | Verilog parsing, DFG/CFG extraction |
-| `networkx` | 2.4 | In-memory graph representation |
+| `networkx` | ≥ 3.3 | In-memory graph representation |
 | `pydot` | latest | Reading `.dot` files for CFG |
-| `scikit-learn` | 0.23.1 | Train/test splitting |
-| `torch` | latest | Tensor operations for GNN pipeline |
-| `matplotlib` | 3.1.1 | Graph visualization |
-| `numpy` | 1.16.5 | Numerical operations |
-| `pathlib` | latest | Path handling |
-| `tqdm` | 4.36.1 | Progress bars |
+| `scikit-learn` | ≥ 1.5.0 | Train/test splitting, metrics |
+| `torch` | ≥ 2.0.0 | Tensor operations, neural network backbone |
+| `torch_geometric` | ≥ 2.4.0 | Graph convolution layers (GCN, GIN), pooling |
+| `matplotlib` | ≥ 3.9.0 | Graph visualization |
+| `numpy` | ≥ 2.0.0 | Numerical operations |
+| `tqdm` | ≥ 4.66.0 | Progress bars |
+| `pyyaml` | ≥ 6.0.1 | YAML config loading |
+| `scipy` | ≥ 1.14.0 | Scientific computing utilities |
 
 ---
 
@@ -496,11 +498,86 @@ pip install -r requirements.txt
 
 ```
 DFG_CFG_Computation/
-├── DFG_CFG_Computation.py   ← Main module (all classes defined here)
-├── requirements.txt          ← Python dependencies
-├── DFG_CFG_Computation.pyproj← Visual Studio project file
-├── env/                      ← Virtual environment (not committed)
-└── README.md                 ← This file
+├── DFG_CFG_Computation.py     ← Main module (Verilog → Graph pipeline)
+├── requirements.txt            ← Python dependencies
+├── DFG_CFG_Computation.pyproj  ← Visual Studio project file
+├── argus_ml/                   ← GNN engine for hardware security analysis
+│   ├── __init__.py             ← Public API: GraphEncoder, TrojanTrainer, ...
+│   ├── models.py               ← GraphEncoder (GCN/GIN, SAGPool, embeddings)
+│   ├── trainers.py             ← TrojanTrainer, SimilarityTrainer
+│   ├── metrics.py              ← MetricsResult, compute_binary_metrics
+│   └── profiling.py            ← @profile_function, @profile_graph_extraction
+├── env/                        ← Virtual environment (not committed)
+└── README.md                   ← This file
+```
+
+---
+
+## `argus_ml` API Reference
+
+### `GraphEncoder` — GNN Model
+
+Configurable graph neural network that converts hardware circuit graphs into
+fixed-dimensional vector embeddings.
+
+```python
+from argus_ml import GraphEncoder
+
+config = {
+    "num_features": 37,          # Number of distinct DFG node types
+    "hidden_dim": 64,            # Internal feature dimension
+    "output_dim": 2,             # Classes: Trojan-Free / Trojan-Infected
+    "num_layers": 3,             # Graph convolution depth
+    "conv_type": "gin",          # "gcn" or "gin" (GIN recommended for Trojan detection)
+    "pool_type": "sagpool",      # "sagpool" or "topkpool"
+    "pool_ratio": 0.5,
+    "readout": "max",            # "max", "mean", or "add"
+    "dropout": 0.3,
+    "node_encoding": "embedding",  # "embedding" (learnable) or "one_hot"
+    "device": "cuda",
+}
+model = GraphEncoder(config).to("cuda")
+
+# Save / Load
+model.save("checkpoints/my_model.pt")
+model = GraphEncoder.load("checkpoints/my_model.pt", device="cuda")
+```
+
+### `TrojanTrainer` — Hardware Trojan Detection
+
+Binary graph classification: labels circuit designs as Trojan-Free or Trojan-Infected.
+
+```python
+from argus_ml import TrojanTrainer
+
+trainer = TrojanTrainer(model, {
+    "device": "cuda",
+    "epochs": 200,
+    "learning_rate": 1e-3,
+    "eval_every": 10,
+    "patience": 30,           # Early stopping
+    "save_dir": "checkpoints/",
+})
+
+best_metrics = trainer.fit(train_loader, val_loader)
+labels, preds, attn_maps = trainer.predict(test_loader)
+```
+
+### `SimilarityTrainer` — IP Piracy Detection
+
+Pairwise graph similarity via cosine embedding loss.
+
+```python
+from argus_ml import SimilarityTrainer
+
+trainer = SimilarityTrainer(model, {
+    "device": "cuda",
+    "epochs": 200,
+    "similarity_margin": 0.5,
+})
+
+best_metrics = trainer.fit(pair_train_loader, pair_val_loader)
+labels, scores, preds = trainer.predict(pair_test_loader)
 ```
 
 ---
