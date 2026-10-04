@@ -1,0 +1,102 @@
+<Solution>
+  <Folder Name="/Root/">
+    <File Path=".editorconfig" />
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="LICENSE" />
+    <File Path="Project-Argus.code-workspace" />
+    <File Path="pyproject.toml" />
+    <File Path="README.md" />
+    <File Path="requirements.txt" />
+  </Folder>
+  <Folder Name="/modules/">
+    <File Path="modules/README.md" />
+  </Folder>
+  <Folder Name="/modules/verilog_ast_parser/">
+    <File Path="modules/verilog_ast_parser/CONTRACT.md" />
+    <File Path="modules/verilog_ast_parser/pyproject.toml" />
+    <File Path="modules/verilog_ast_parser/README.md" />
+  </Folder>
+  <Folder Name="/modules/verilog_ast_parser/src/">
+    <File Path="modules/verilog_ast_parser/src/argus_ast/__init__.py" />
+    <File Path="modules/verilog_ast_parser/src/argus_ast/__main__.py" />
+    <File Path="modules/verilog_ast_parser/src/argus_ast/artifact.py" />
+    <File Path="modules/verilog_ast_parser/src/argus_ast/parser.py" />
+    <File Path="modules/verilog_ast_parser/src/argus_ast/preprocess.py" />
+  </Folder>
+  <Folder Name="/modules/verilog_ast_parser/tests/">
+    <File Path="modules/verilog_ast_parser/tests/conftest.py" />
+    <File Path="modules/verilog_ast_parser/tests/test_parser.py" />
+    <File Path="modules/verilog_ast_parser/tests/test_preprocess.py" />
+  </Folder>
+  <Folder Name="/modules/ast_to_cfg/">
+    <File Path="modules/ast_to_cfg/CONTRACT.md" />
+    <File Path="modules/ast_to_cfg/pyproject.toml" />
+    <File Path="modules/ast_to_cfg/README.md" />
+  </Folder>
+  <Folder Name="/modules/ast_to_cfg/src/">
+    <File Path="modules/ast_to_cfg/src/argus_cfg/__init__.py" />
+    <File Path="modules/ast_to_cfg/src/argus_cfg/__main__.py" />
+    <File Path="modules/ast_to_cfg/src/argus_cfg/binding.py" />
+    <File Path="modules/ast_to_cfg/src/argus_cfg/extract.py" />
+    <File Path="modules/ast_to_cfg/src/argus_cfg/inputs.py" />
+    <File Path="modules/ast_to_cfg/src/argus_cfg/result.py" />
+  </Folder>
+  <Folder Name="/modules/ast_to_cfg/tests/">
+    <File Path="modules/ast_to_cfg/tests/test_cli.py" />
+    <File Path="modules/ast_to_cfg/tests/test_extract.py" />
+  </Folder>
+  <Folder Name="/modules/ast_to_dfg/">
+    <File Path="modules/ast_to_dfg/CONTRACT.md" />
+    <File Path="modules/ast_to_dfg/pyproject.toml" />
+    <File Path="modules/ast_to_dfg/README.md" />
+  </Folder>
+  <Folder Name="/modules/ast_to_dfg/src/">
+    <File Path="modules/ast_to_dfg/src/argus_dfg/__init__.py" />
+    <File Path="modules/ast_to_dfg/src/argus_dfg/__main__.py" />
+    <File Path="modules/ast_to_dfg/src/argus_dfg/binding.py" />
+    <File Path="modules/ast_to_dfg/src/argus_dfg/extract.py" />
+    <File Path="modules/ast_to_dfg/src/argus_dfg/inputs.py" />
+    <File Path="modules/ast_to_dfg/src/argus_dfg/result.py" />
+  </Folder>
+  <Folder Name="/modules/ast_to_dfg/tests/">
+    <File Path="modules/ast_to_dfg/tests/test_cli.py" />
+    <File Path="modules/ast_to_dfg/tests/test_extract.py" />
+  </Folder>
+  <Folder Name="/modules/dependency_digraph/">
+    <File Path="modules/dependency_digraph/CONTRACT.md" />
+    <File Path="modules/dependency_digraph/pyproject.toml" />
+    <File Path="modules/dependency_digraph/README.md" />
+  </Folder>
+  <Folder Name="/modules/dependency_digraph/src/">
+    <File Path="modules/dependency_digraph/src/argus_digraph/__init__.py" />
+    <File Path="modules/dependency_digraph/src/argus_digraph/__main__.py" />
+    <File Path="modules/dependency_digraph/src/argus_digraph/inputs.py" />
+    <File Path="modules/dependency_digraph/src/argus_digraph/merge.py" />
+    <File Path="modules/dependency_digraph/src/argus_digraph/result.py" />
+  </Folder>
+  <Folder Name="/modules/dependency_digraph/tests/">
+    <File Path="modules/dependency_digraph/tests/test_merge.py" />
+  </Folder>
+  <Folder Name="/modules/argus_ml/">
+    <File Path="modules/argus_ml/CONTRACT.md" />
+    <File Path="modules/argus_ml/pyproject.toml" />
+    <File Path="modules/argus_ml/README.md" />
+  </Folder>
+  <Folder Name="/modules/argus_ml/src/">
+    <File Path="modules/argus_ml/src/argus_ml/__init__.py" />
+    <File Path="modules/argus_ml/src/argus_ml/metrics.py" />
+    <File Path="modules/argus_ml/src/argus_ml/models.py" />
+    <File Path="modules/argus_ml/src/argus_ml/profiling.py" />
+    <File Path="modules/argus_ml/src/argus_ml/trainers.py" />
+  </Folder>
+  <Folder Name="/modules/argus_ml/tests/">
+    <File Path="modules/argus_ml/tests/test_imports.py" />
+  </Folder>
+  <Folder Name="/modules/argus_controller/">
+    <File Path="modules/argus_controller/README.md" />
+  </Folder>
+  <Folder Name="/modules/argus_controller/src/">
+    <File Path="modules/argus_controller/src/argus_controller/pipeline.py" />
+  </Folder>
+</Solution>
