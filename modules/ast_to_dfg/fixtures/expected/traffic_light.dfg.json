@@ -1,0 +1,329 @@
+{
+  "schema_version": "1.0",
+  "kind": "dfg",
+  "top_module": "traffic",
+  "nodes": [
+    {
+      "id": "traffic._rn0_light",
+      "type": "signal",
+      "label": "_rn0_light",
+      "termtype": [
+        "Rename"
+      ]
+    },
+    {
+      "id": "traffic._rn1_light",
+      "type": "signal",
+      "label": "_rn1_light",
+      "termtype": [
+        "Rename"
+      ]
+    },
+    {
+      "id": "traffic.clk",
+      "type": "signal",
+      "label": "clk",
+      "termtype": [
+        "Input"
+      ]
+    },
+    {
+      "id": "traffic.light",
+      "type": "signal",
+      "label": "light",
+      "termtype": [
+        "Output",
+        "Reg"
+      ]
+    },
+    {
+      "id": "traffic.rst",
+      "type": "signal",
+      "label": "rst",
+      "termtype": [
+        "Input"
+      ]
+    },
+    {
+      "id": "traffic.start",
+      "type": "signal",
+      "label": "start",
+      "termtype": [
+        "Input"
+      ]
+    },
+    {
+      "id": "traffic.state",
+      "type": "signal",
+      "label": "state",
+      "termtype": [
+        "Reg"
+      ]
+    },
+    {
+      "id": "const_1",
+      "type": "const",
+      "label": "2'd3"
+    },
+    {
+      "id": "br_2",
+      "type": "branch",
+      "label": "Branch"
+    },
+    {
+      "id": "op_3",
+      "type": "operator",
+      "label": "Eq"
+    },
+    {
+      "id": "const_4",
+      "type": "const",
+      "label": "2'd2"
+    },
+    {
+      "id": "br_5",
+      "type": "branch",
+      "label": "Branch"
+    },
+    {
+      "id": "const_6",
+      "type": "const",
+      "label": "2'd0"
+    },
+    {
+      "id": "br_7",
+      "type": "branch",
+      "label": "Branch"
+    },
+    {
+      "id": "op_8",
+      "type": "operator",
+      "label": "Eq"
+    },
+    {
+      "id": "const_9",
+      "type": "const",
+      "label": "2'd0"
+    },
+    {
+      "id": "br_10",
+      "type": "branch",
+      "label": "Branch"
+    },
+    {
+      "id": "const_11",
+      "type": "const",
+      "label": "2'd1"
+    },
+    {
+      "id": "br_12",
+      "type": "branch",
+      "label": "Branch"
+    },
+    {
+      "id": "op_13",
+      "type": "operator",
+      "label": "Eq"
+    },
+    {
+      "id": "const_14",
+      "type": "const",
+      "label": "2'd1"
+    },
+    {
+      "id": "const_15",
+      "type": "const",
+      "label": "2'd2"
+    },
+    {
+      "id": "br_16",
+      "type": "branch",
+      "label": "Branch"
+    },
+    {
+      "id": "op_17",
+      "type": "operator",
+      "label": "Eq"
+    },
+    {
+      "id": "const_18",
+      "type": "const",
+      "label": "2'd2"
+    },
+    {
+      "id": "const_19",
+      "type": "const",
+      "label": "2'd0"
+    }
+  ],
+  "edges": [
+    {
+      "src": "const_1",
+      "dst": "traffic._rn0_light",
+      "label": "assign",
+      "sequential": false
+    },
+    {
+      "src": "traffic.state",
+      "dst": "traffic._rn1_light",
+      "label": "assign",
+      "sequential": false
+    },
+    {
+      "src": "traffic.state",
+      "dst": "op_3",
+      "label": "0",
+      "sequential": false
+    },
+    {
+      "src": "const_4",
+      "dst": "op_3",
+      "label": "1",
+      "sequential": false
+    },
+    {
+      "src": "op_3",
+      "dst": "br_2",
+      "label": "COND",
+      "sequential": false
+    },
+    {
+      "src": "traffic._rn0_light",
+      "dst": "br_2",
+      "label": "TRUE",
+      "sequential": false
+    },
+    {
+      "src": "traffic._rn1_light",
+      "dst": "br_2",
+      "label": "FALSE",
+      "sequential": false
+    },
+    {
+      "src": "br_2",
+      "dst": "traffic.light",
+      "label": "assign",
+      "sequential": false
+    },
+    {
+      "src": "traffic.rst",
+      "dst": "br_5",
+      "label": "COND",
+      "sequential": false
+    },
+    {
+      "src": "const_6",
+      "dst": "br_5",
+      "label": "TRUE",
+      "sequential": false
+    },
+    {
+      "src": "traffic.state",
+      "dst": "op_8",
+      "label": "0",
+      "sequential": false
+    },
+    {
+      "src": "const_9",
+      "dst": "op_8",
+      "label": "1",
+      "sequential": false
+    },
+    {
+      "src": "op_8",
+      "dst": "br_7",
+      "label": "COND",
+      "sequential": false
+    },
+    {
+      "src": "traffic.start",
+      "dst": "br_10",
+      "label": "COND",
+      "sequential": false
+    },
+    {
+      "src": "const_11",
+      "dst": "br_10",
+      "label": "TRUE",
+      "sequential": false
+    },
+    {
+      "src": "br_10",
+      "dst": "br_7",
+      "label": "TRUE",
+      "sequential": false
+    },
+    {
+      "src": "traffic.state",
+      "dst": "op_13",
+      "label": "0",
+      "sequential": false
+    },
+    {
+      "src": "const_14",
+      "dst": "op_13",
+      "label": "1",
+      "sequential": false
+    },
+    {
+      "src": "op_13",
+      "dst": "br_12",
+      "label": "COND",
+      "sequential": false
+    },
+    {
+      "src": "const_15",
+      "dst": "br_12",
+      "label": "TRUE",
+      "sequential": false
+    },
+    {
+      "src": "traffic.state",
+      "dst": "op_17",
+      "label": "0",
+      "sequential": false
+    },
+    {
+      "src": "const_18",
+      "dst": "op_17",
+      "label": "1",
+      "sequential": false
+    },
+    {
+      "src": "op_17",
+      "dst": "br_16",
+      "label": "COND",
+      "sequential": false
+    },
+    {
+      "src": "const_19",
+      "dst": "br_16",
+      "label": "TRUE",
+      "sequential": false
+    },
+    {
+      "src": "br_16",
+      "dst": "br_12",
+      "label": "FALSE",
+      "sequential": false
+    },
+    {
+      "src": "br_12",
+      "dst": "br_7",
+      "label": "FALSE",
+      "sequential": false
+    },
+    {
+      "src": "br_7",
+      "dst": "br_5",
+      "label": "FALSE",
+      "sequential": false
+    },
+    {
+      "src": "br_5",
+      "dst": "traffic.state",
+      "label": "assign",
+      "sequential": true
+    }
+  ]
+}

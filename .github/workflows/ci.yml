@@ -1,0 +1,52 @@
+name: ci
+
+on:
+  push:
+    branches: ["main", "core/**", "feature/**"]
+  pull_request:
+
+# Each module is tested in ISOLATION: only its own folder is installed.
+jobs:
+  module:
+    name: ${{ matrix.module }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        module:
+          - verilog_ast_parser
+          - ast_to_cfg
+          - ast_to_dfg
+          - dependency_digraph
+          - argus_ml
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Skip if module not present on this branch
+        id: present
+        run: |
+          if [ -d "modules/${{ matrix.module }}" ]; then echo "ok=true" >> "$GITHUB_OUTPUT"; fi
+      - name: Install (module only)
+        if: steps.present.outputs.ok == 'true'
+        run: pip install -e "modules/${{ matrix.module }}[test]" ruff
+      - name: Lint
+        if: steps.present.outputs.ok == 'true'
+        run: ruff check "modules/${{ matrix.module }}"
+      - name: Test
+        if: steps.present.outputs.ok == 'true'
+        run: pytest "modules/${{ matrix.module }}/tests" -q
+
+  controller:
+    name: controller (integration)
+    if: ${{ hashFiles('controller/pyproject.toml') != '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e controller[test] ruff
+      - run: ruff check controller
+      - run: pytest controller/tests -q

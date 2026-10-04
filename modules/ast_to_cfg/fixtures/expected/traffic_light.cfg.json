@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "kind": "cfg",
+  "top_module": "traffic",
+  "fsms": [
+    {
+      "signal": "traffic.state",
+      "delay_cnt": 0,
+      "states": [
+        "0",
+        "1",
+        "2"
+      ],
+      "transitions": [
+        {
+          "src": "0",
+          "dst": "1",
+          "condition": "(traffic_start>'d0)"
+        },
+        {
+          "src": "1",
+          "dst": "2",
+          "condition": null
+        },
+        {
+          "src": "2",
+          "dst": "0",
+          "condition": null
+        }
+      ]
+    }
+  ]
+}
