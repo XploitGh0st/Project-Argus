@@ -1,0 +1,26 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "python.analysis.extraPaths": [
+      "modules/argus_ast/src",
+      "modules/argus_cfg/src",
+      "modules/argus_dfg/src",
+      "modules/argus_digraph/src",
+      "modules/argus_ml/src",
+      "modules/argus_controller/src"
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+      "modules/argus_ast/tests",
+      "modules/argus_cfg/tests",
+      "modules/argus_dfg/tests",
+      "modules/dependency_digraph/tests",
+      "modules/argus_ml/tests"
+    ],
+    "python.defaultInterpreterPath": ".venv/Scripts/python.exe"
+  }
+}
