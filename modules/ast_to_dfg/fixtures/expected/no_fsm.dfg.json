@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "kind": "dfg",
+  "top_module": "comb",
+  "nodes": [
+    {
+      "id": "comb.a",
+      "type": "signal",
+      "label": "a",
+      "termtype": [
+        "Input"
+      ]
+    },
+    {
+      "id": "comb.b",
+      "type": "signal",
+      "label": "b",
+      "termtype": [
+        "Input"
+      ]
+    },
+    {
+      "id": "comb.y",
+      "type": "signal",
+      "label": "y",
+      "termtype": [
+        "Output"
+      ]
+    },
+    {
+      "id": "op_1",
+      "type": "operator",
+      "label": "And"
+    }
+  ],
+  "edges": [
+    {
+      "src": "comb.a",
+      "dst": "op_1",
+      "label": "0",
+      "sequential": false
+    },
+    {
+      "src": "comb.b",
+      "dst": "op_1",
+      "label": "1",
+      "sequential": false
+    },
+    {
+      "src": "op_1",
+      "dst": "comb.y",
+      "label": "assign",
+      "sequential": false
+    }
+  ]
+}
