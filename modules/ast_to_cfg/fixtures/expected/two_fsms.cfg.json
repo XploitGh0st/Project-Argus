@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "kind": "cfg",
+  "top_module": "dual",
+  "fsms": [
+    {
+      "signal": "dual.mode",
+      "delay_cnt": 0,
+      "states": [
+        "0",
+        "1",
+        "2"
+      ],
+      "transitions": [
+        {
+          "src": "0",
+          "dst": "1",
+          "condition": null
+        },
+        {
+          "src": "1",
+          "dst": "2",
+          "condition": null
+        },
+        {
+          "src": "2",
+          "dst": "0",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "signal": "dual.state",
+      "delay_cnt": 0,
+      "states": [
+        "0",
+        "1"
+      ],
+      "transitions": [
+        {
+          "src": "0",
+          "dst": "1",
+          "condition": "(dual_go>'d0)"
+        },
+        {
+          "src": "1",
+          "dst": "0",
+          "condition": "(dual_go>'d0)"
+        }
+      ]
+    }
+  ]
+}
