@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "argus-ml"
+version = "0.1.0"
+description = "Machine Learning models and inference logic for Argus"
+requires-python = ">=3.9"
+dependencies = [
+    "torch",
+    "torch_geometric",
+    "scikit-learn",
+    "numpy",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/argus_ml"]
+
+[tool.ruff]
+line-length = 90
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "N", "PL", "C90", "T20", "S", "B", "A", "C4", "PT"]
+ignore = ["S101", "PLR2004", "T201", "C901", "PLR0912", "E501", "PLC0415"]

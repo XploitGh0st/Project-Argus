@@ -1,0 +1,389 @@
+{
+  "schema_version": "1.0",
+  "kind": "dfg",
+  "top_module": "dual",
+  "nodes": [
+    {
+      "id": "dual.clk",
+      "type": "signal",
+      "label": "clk",
+      "termtype": [
+        "Input"
+      ]
+    },
+    {
+      "id": "dual.go",
+      "type": "signal",
+      "label": "go",
+      "termtype": [
+        "Input"
+      ]
+    },
+    {
+      "id": "dual.mode",
+      "type": "signal",
+      "label": "mode",
+      "termtype": [
+        "Reg"
+      ]
+    },
+    {
+      "id": "dual.rst",
+      "type": "signal",
+      "label": "rst",
+      "termtype": [
+        "Input"
+      ]
+    },
+    {
+      "id": "dual.state",
+      "type": "signal",
+      "label": "state",
+      "termtype": [
+        "Reg"
+      ]
+    },
+    {
+      "id": "br_1",
+      "type": "branch",
+      "label": "Branch"
+    },
+    {
+      "id": "const_2",
+      "type": "const",
+      "label": "2'd0"
+    },
+    {
+      "id": "br_3",
+      "type": "branch",
+      "label": "Branch"
+    },
+    {
+      "id": "op_4",
+      "type": "operator",
+      "label": "Eq"
+    },
+    {
+      "id": "const_5",
+      "type": "const",
+      "label": "2'd0"
+    },
+    {
+      "id": "const_6",
+      "type": "const",
+      "label": "2'd1"
+    },
+    {
+      "id": "br_7",
+      "type": "branch",
+      "label": "Branch"
+    },
+    {
+      "id": "op_8",
+      "type": "operator",
+      "label": "Eq"
+    },
+    {
+      "id": "const_9",
+      "type": "const",
+      "label": "2'd1"
+    },
+    {
+      "id": "const_10",
+      "type": "const",
+      "label": "2'd2"
+    },
+    {
+      "id": "br_11",
+      "type": "branch",
+      "label": "Branch"
+    },
+    {
+      "id": "op_12",
+      "type": "operator",
+      "label": "Eq"
+    },
+    {
+      "id": "const_13",
+      "type": "const",
+      "label": "2'd2"
+    },
+    {
+      "id": "const_14",
+      "type": "const",
+      "label": "2'd0"
+    },
+    {
+      "id": "br_15",
+      "type": "branch",
+      "label": "Branch"
+    },
+    {
+      "id": "const_16",
+      "type": "const",
+      "label": "2'd0"
+    },
+    {
+      "id": "br_17",
+      "type": "branch",
+      "label": "Branch"
+    },
+    {
+      "id": "op_18",
+      "type": "operator",
+      "label": "Eq"
+    },
+    {
+      "id": "const_19",
+      "type": "const",
+      "label": "2'd0"
+    },
+    {
+      "id": "br_20",
+      "type": "branch",
+      "label": "Branch"
+    },
+    {
+      "id": "const_21",
+      "type": "const",
+      "label": "2'd1"
+    },
+    {
+      "id": "br_22",
+      "type": "branch",
+      "label": "Branch"
+    },
+    {
+      "id": "op_23",
+      "type": "operator",
+      "label": "Eq"
+    },
+    {
+      "id": "const_24",
+      "type": "const",
+      "label": "2'd1"
+    },
+    {
+      "id": "br_25",
+      "type": "branch",
+      "label": "Branch"
+    },
+    {
+      "id": "const_26",
+      "type": "const",
+      "label": "2'd0"
+    }
+  ],
+  "edges": [
+    {
+      "src": "dual.rst",
+      "dst": "br_1",
+      "label": "COND",
+      "sequential": false
+    },
+    {
+      "src": "const_2",
+      "dst": "br_1",
+      "label": "TRUE",
+      "sequential": false
+    },
+    {
+      "src": "dual.mode",
+      "dst": "op_4",
+      "label": "0",
+      "sequential": false
+    },
+    {
+      "src": "const_5",
+      "dst": "op_4",
+      "label": "1",
+      "sequential": false
+    },
+    {
+      "src": "op_4",
+      "dst": "br_3",
+      "label": "COND",
+      "sequential": false
+    },
+    {
+      "src": "const_6",
+      "dst": "br_3",
+      "label": "TRUE",
+      "sequential": false
+    },
+    {
+      "src": "dual.mode",
+      "dst": "op_8",
+      "label": "0",
+      "sequential": false
+    },
+    {
+      "src": "const_9",
+      "dst": "op_8",
+      "label": "1",
+      "sequential": false
+    },
+    {
+      "src": "op_8",
+      "dst": "br_7",
+      "label": "COND",
+      "sequential": false
+    },
+    {
+      "src": "const_10",
+      "dst": "br_7",
+      "label": "TRUE",
+      "sequential": false
+    },
+    {
+      "src": "dual.mode",
+      "dst": "op_12",
+      "label": "0",
+      "sequential": false
+    },
+    {
+      "src": "const_13",
+      "dst": "op_12",
+      "label": "1",
+      "sequential": false
+    },
+    {
+      "src": "op_12",
+      "dst": "br_11",
+      "label": "COND",
+      "sequential": false
+    },
+    {
+      "src": "const_14",
+      "dst": "br_11",
+      "label": "TRUE",
+      "sequential": false
+    },
+    {
+      "src": "br_11",
+      "dst": "br_7",
+      "label": "FALSE",
+      "sequential": false
+    },
+    {
+      "src": "br_7",
+      "dst": "br_3",
+      "label": "FALSE",
+      "sequential": false
+    },
+    {
+      "src": "br_3",
+      "dst": "br_1",
+      "label": "FALSE",
+      "sequential": false
+    },
+    {
+      "src": "br_1",
+      "dst": "dual.mode",
+      "label": "assign",
+      "sequential": true
+    },
+    {
+      "src": "dual.rst",
+      "dst": "br_15",
+      "label": "COND",
+      "sequential": false
+    },
+    {
+      "src": "const_16",
+      "dst": "br_15",
+      "label": "TRUE",
+      "sequential": false
+    },
+    {
+      "src": "dual.state",
+      "dst": "op_18",
+      "label": "0",
+      "sequential": false
+    },
+    {
+      "src": "const_19",
+      "dst": "op_18",
+      "label": "1",
+      "sequential": false
+    },
+    {
+      "src": "op_18",
+      "dst": "br_17",
+      "label": "COND",
+      "sequential": false
+    },
+    {
+      "src": "dual.go",
+      "dst": "br_20",
+      "label": "COND",
+      "sequential": false
+    },
+    {
+      "src": "const_21",
+      "dst": "br_20",
+      "label": "TRUE",
+      "sequential": false
+    },
+    {
+      "src": "br_20",
+      "dst": "br_17",
+      "label": "TRUE",
+      "sequential": false
+    },
+    {
+      "src": "dual.state",
+      "dst": "op_23",
+      "label": "0",
+      "sequential": false
+    },
+    {
+      "src": "const_24",
+      "dst": "op_23",
+      "label": "1",
+      "sequential": false
+    },
+    {
+      "src": "op_23",
+      "dst": "br_22",
+      "label": "COND",
+      "sequential": false
+    },
+    {
+      "src": "dual.go",
+      "dst": "br_25",
+      "label": "COND",
+      "sequential": false
+    },
+    {
+      "src": "const_26",
+      "dst": "br_25",
+      "label": "TRUE",
+      "sequential": false
+    },
+    {
+      "src": "br_25",
+      "dst": "br_22",
+      "label": "TRUE",
+      "sequential": false
+    },
+    {
+      "src": "br_22",
+      "dst": "br_17",
+      "label": "FALSE",
+      "sequential": false
+    },
+    {
+      "src": "br_17",
+      "dst": "br_15",
+      "label": "FALSE",
+      "sequential": false
+    },
+    {
+      "src": "br_15",
+      "dst": "dual.state",
+      "label": "assign",
+      "sequential": true
+    }
+  ]
+}
