@@ -4,6 +4,7 @@ from pathlib import Path
 import networkx as nx
 import pytest
 
+import sys
 from argus_cfg import (
     ANY_STATE,
     CFGResult,
@@ -12,9 +13,11 @@ from argus_cfg import (
     state_node_id,
     validate_cfg_document,
 )
-from ast_builders import ALL_BUILDERS, build_no_fsm, build_traffic_light, build_two_fsms
 
 FIXTURES = Path(__file__).resolve().parent.parent / "fixtures"
+if str(FIXTURES) not in sys.path:
+    sys.path.insert(0, str(FIXTURES))
+from ast_builders import ALL_BUILDERS, build_no_fsm, build_traffic_light, build_two_fsms
 
 
 def _fsm(result: CFGResult, suffix: str):

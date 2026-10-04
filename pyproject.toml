@@ -1,0 +1,45 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "project-argus"
+version = "0.1.0"
+description = "Project Argus: Hardware Security & Trojan Detection Framework"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+dependencies = [
+    "pyverilog>=1.3.0",
+    "networkx>=3.0",
+    "numpy>=1.26.0",
+    "scipy>=1.12.0",
+    "scikit-learn>=1.4.0",
+    "tqdm>=4.66.0",
+    "pyyaml>=6.0.0",
+    "torch>=2.2.0",
+    "torch_geometric>=2.5.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-mock>=3.12.0",
+    "ruff>=0.4.0",
+    "hatchling>=1.20.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = [
+    "modules/verilog_ast_parser/tests",
+    "modules/ast_to_cfg/tests",
+    "modules/ast_to_dfg/tests",
+    "modules/dependency_digraph/tests",
+    "modules/argus_ml/tests",
+]
+addopts = "--import-mode=importlib"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
