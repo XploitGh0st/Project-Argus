@@ -13,3 +13,14 @@
 - Audit: 91/95 runs complete (24/27 AES infected + 2 clean, 4/4 PIC16F84, 14/14 RS232, 2/2 wb_conmax). 4 failed: AES-T400, T1600, T1700 (Bind dest empty), memctrl-T100 (DFEvalValue, no clean).
 - Trojan elaboration: AES-T100 elaborated 2457 trojan-only signals across TSC, lfsr, top modules.
 - Unit tests: 62 tests across argus_ast, argus_cfg, argus_dfg, dependency_digraph all PASS.
+
+## Phase 2 — WL-3 Node Labels ✅
+- Implemented 3-round Weisfeiler-Lehman diffing with extra hash counts and hierarchical signal name diffing.
+- Validation: clean vs itself yields 0 positives. AES-T100: 0.80% positives, 100% agreement with new signals.
+- Reported high positive rate (>10%) on PIC16F84 (~47%), RS232 (~56%), wb_conmax (39-97%) due to adjacent node hash propagation (label noise).
+- Labels cached for all 44 designs in .cache/labels/.
+
+## Phase 3 — Node Features ✅
+- Fixed 62-column numerical feature matrix (structural one-hot, degree, constants, comparators, rarity, SCC counter cycles, I/O BFS distances, 1-hop max/mean, percentiles).
+- Vectorized implementation with zero signal name / node id leakage.
+- Features cached for all 44 designs in .cache/features/.
