@@ -31,3 +31,9 @@
 - M1 macro-average: ROC-AUC = 0.6925, PR-AUC = 0.6607, Recall = 93.22%, F1 = 0.5821. RS232: ROC-AUC 0.8610, F1 0.8578. PIC16F84: ROC-AUC 0.9161, Recall 100%.
 - Controls: Shuffled labels yielded chance ROC-AUC (0.5537 macro); control edge ablation (M1 vs M2) confirmed.
 - Results saved to results/lofo_results.json and auto-generated results/REPORT.md.
+
+## Phase 5 — Deliverables ✅
+- Trained best M1 model on all 44 labeled benchmarks; saved to models/best/model.joblib and models/best/metadata.json (threshold=0.0467).
+- Implemented scripts/scan.py CLI supporting --target, --top, --format (text/json), --threshold. Smoke tested on trojan_trigger.v (14/14 trojan nodes flagged, exit code 1).
+- Authored docs/PIPELINE_SUMMARY.md (headline metrics, biggest win, biggest fail, GNN vs trees analysis, next steps).
+- Pipeline complete end-to-end with all deliverables verified and committed.
