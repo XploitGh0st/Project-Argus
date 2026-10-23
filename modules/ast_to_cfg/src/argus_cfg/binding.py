@@ -10,6 +10,9 @@ contracts, never code.
 
 from __future__ import annotations
 
+from argus_ast.patch_pyverilog import apply_pyverilog_patches
+apply_pyverilog_patches()
+
 import contextlib
 import io
 import sys

@@ -1,0 +1,952 @@
+[
+  {
+    "id": "AES-T100",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367566,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.5586912631988525,
+    "error": ""
+  },
+  {
+    "id": "AES-T100",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 368053,
+    "edges": 553626,
+    "control_dep": 96538,
+    "seconds": 0.5204253196716309,
+    "error": ""
+  },
+  {
+    "id": "AES-T1000",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367566,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.5293316841125488,
+    "error": ""
+  },
+  {
+    "id": "AES-T1000",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 368074,
+    "edges": 553673,
+    "control_dep": 96560,
+    "seconds": 0.5493309497833252,
+    "error": ""
+  },
+  {
+    "id": "AES-T1100",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367566,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.555034875869751,
+    "error": ""
+  },
+  {
+    "id": "AES-T1100",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 368139,
+    "edges": 553934,
+    "control_dep": 96739,
+    "seconds": 0.5414066314697266,
+    "error": ""
+  },
+  {
+    "id": "AES-T1200",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367566,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.5690152645111084,
+    "error": ""
+  },
+  {
+    "id": "AES-T1200",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 368080,
+    "edges": 553691,
+    "control_dep": 96572,
+    "seconds": 0.5187304019927979,
+    "error": ""
+  },
+  {
+    "id": "AES-T1300",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367566,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.5431764125823975,
+    "error": ""
+  },
+  {
+    "id": "AES-T1300",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 368251,
+    "edges": 554215,
+    "control_dep": 96908,
+    "seconds": 0.536170482635498,
+    "error": ""
+  },
+  {
+    "id": "AES-T1400",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367566,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.5490756034851074,
+    "error": ""
+  },
+  {
+    "id": "AES-T1400",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 368318,
+    "edges": 554816,
+    "control_dep": 97424,
+    "seconds": 0.5385282039642334,
+    "error": ""
+  },
+  {
+    "id": "AES-T1500",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367566,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.5622811317443848,
+    "error": ""
+  },
+  {
+    "id": "AES-T1500",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 368259,
+    "edges": 554280,
+    "control_dep": 96964,
+    "seconds": 0.5558583736419678,
+    "error": ""
+  },
+  {
+    "id": "AES-T1600",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367566,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.5713810920715332,
+    "error": ""
+  },
+  {
+    "id": "AES-T1600",
+    "variant": "infected",
+    "stage": "parsed",
+    "nodes": 0,
+    "edges": 0,
+    "control_dep": 0,
+    "seconds": 10.648772954940796,
+    "error": "Bind dest is empty"
+  },
+  {
+    "id": "AES-T1700",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367566,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.45819664001464844,
+    "error": ""
+  },
+  {
+    "id": "AES-T1700",
+    "variant": "infected",
+    "stage": "parsed",
+    "nodes": 0,
+    "edges": 0,
+    "control_dep": 0,
+    "seconds": 9.711525917053223,
+    "error": "Bind dest is empty"
+  },
+  {
+    "id": "AES-T1800",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367566,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.45175766944885254,
+    "error": ""
+  },
+  {
+    "id": "AES-T1800",
+    "variant": "infected",
+    "stage": "complete",
+    "nodes": 367795,
+    "edges": 553053,
+    "control_dep": 96548,
+    "seconds": 28.044436931610107,
+    "error": ""
+  },
+  {
+    "id": "AES-T1900",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367566,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.48024606704711914,
+    "error": ""
+  },
+  {
+    "id": "AES-T1900",
+    "variant": "infected",
+    "stage": "complete",
+    "nodes": 367802,
+    "edges": 553067,
+    "control_dep": 96554,
+    "seconds": 28.77776050567627,
+    "error": ""
+  },
+  {
+    "id": "AES-T200",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367566,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.46302151679992676,
+    "error": ""
+  },
+  {
+    "id": "AES-T200",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 368057,
+    "edges": 553631,
+    "control_dep": 96538,
+    "seconds": 0.45467042922973633,
+    "error": ""
+  },
+  {
+    "id": "AES-T2000",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367566,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.48618388175964355,
+    "error": ""
+  },
+  {
+    "id": "AES-T2000",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 367890,
+    "edges": 553331,
+    "control_dep": 96713,
+    "seconds": 0.46326112747192383,
+    "error": ""
+  },
+  {
+    "id": "AES-T2100",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367566,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.44080400466918945,
+    "error": ""
+  },
+  {
+    "id": "AES-T2100",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 367830,
+    "edges": 553108,
+    "control_dep": 96567,
+    "seconds": 0.46288537979125977,
+    "error": ""
+  },
+  {
+    "id": "AES-T2300",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367567,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.43343067169189453,
+    "error": ""
+  },
+  {
+    "id": "AES-T2300",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 367586,
+    "edges": 553028,
+    "control_dep": 96536,
+    "seconds": 0.44292759895324707,
+    "error": ""
+  },
+  {
+    "id": "AES-T2400",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367567,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.43827080726623535,
+    "error": ""
+  },
+  {
+    "id": "AES-T2400",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 367586,
+    "edges": 553028,
+    "control_dep": 96536,
+    "seconds": 0.44980335235595703,
+    "error": ""
+  },
+  {
+    "id": "AES-T2500",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367567,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.46650004386901855,
+    "error": ""
+  },
+  {
+    "id": "AES-T2500",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 367592,
+    "edges": 553036,
+    "control_dep": 96538,
+    "seconds": 0.43438148498535156,
+    "error": ""
+  },
+  {
+    "id": "AES-T2600",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367567,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.4562091827392578,
+    "error": ""
+  },
+  {
+    "id": "AES-T2600",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 367601,
+    "edges": 553052,
+    "control_dep": 96542,
+    "seconds": 0.4702882766723633,
+    "error": ""
+  },
+  {
+    "id": "AES-T2700",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367567,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.4575307369232178,
+    "error": ""
+  },
+  {
+    "id": "AES-T2700",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 367610,
+    "edges": 553067,
+    "control_dep": 96547,
+    "seconds": 0.46933937072753906,
+    "error": ""
+  },
+  {
+    "id": "AES-T2800",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367567,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.4711768627166748,
+    "error": ""
+  },
+  {
+    "id": "AES-T2800",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 367619,
+    "edges": 553080,
+    "control_dep": 96549,
+    "seconds": 0.46558547019958496,
+    "error": ""
+  },
+  {
+    "id": "AES-T300",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367566,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.4702119827270508,
+    "error": ""
+  },
+  {
+    "id": "AES-T300",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 368230,
+    "edges": 554109,
+    "control_dep": 96832,
+    "seconds": 0.46649622917175293,
+    "error": ""
+  },
+  {
+    "id": "AES-T400",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367566,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.47086215019226074,
+    "error": ""
+  },
+  {
+    "id": "AES-T400",
+    "variant": "infected",
+    "stage": "parsed",
+    "nodes": 0,
+    "edges": 0,
+    "control_dep": 0,
+    "seconds": 10.213279008865356,
+    "error": "Bind dest is empty"
+  },
+  {
+    "id": "AES-T500",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367566,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.44306516647338867,
+    "error": ""
+  },
+  {
+    "id": "AES-T500",
+    "variant": "infected",
+    "stage": "complete",
+    "nodes": 367862,
+    "edges": 553246,
+    "control_dep": 96656,
+    "seconds": 27.560837507247925,
+    "error": ""
+  },
+  {
+    "id": "AES-T600",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367566,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.4549691677093506,
+    "error": ""
+  },
+  {
+    "id": "AES-T600",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 367862,
+    "edges": 553145,
+    "control_dep": 96565,
+    "seconds": 0.43251562118530273,
+    "error": ""
+  },
+  {
+    "id": "AES-T700",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367566,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.4679691791534424,
+    "error": ""
+  },
+  {
+    "id": "AES-T700",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 368266,
+    "edges": 553995,
+    "control_dep": 96626,
+    "seconds": 0.48151111602783203,
+    "error": ""
+  },
+  {
+    "id": "AES-T800",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367566,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.46361875534057617,
+    "error": ""
+  },
+  {
+    "id": "AES-T800",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 368333,
+    "edges": 554259,
+    "control_dep": 96806,
+    "seconds": 0.46184659004211426,
+    "error": ""
+  },
+  {
+    "id": "AES-T900",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 367566,
+    "edges": 553006,
+    "control_dep": 96536,
+    "seconds": 0.4447438716888428,
+    "error": ""
+  },
+  {
+    "id": "AES-T900",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 368274,
+    "edges": 554016,
+    "control_dep": 96639,
+    "seconds": 0.4785959720611572,
+    "error": ""
+  },
+  {
+    "id": "memctrl-T100",
+    "variant": "infected",
+    "stage": "parsed",
+    "nodes": 0,
+    "edges": 0,
+    "control_dep": 0,
+    "seconds": 0.8911318778991699,
+    "error": "Can not infer the value from non DFEvalValue object"
+  },
+  {
+    "id": "PIC16F84-T100",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 3355,
+    "edges": 6207,
+    "control_dep": 1512,
+    "seconds": 0.007348537445068359,
+    "error": ""
+  },
+  {
+    "id": "PIC16F84-T100",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 3446,
+    "edges": 6400,
+    "control_dep": 1592,
+    "seconds": 0.005494832992553711,
+    "error": ""
+  },
+  {
+    "id": "PIC16F84-T200",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 3355,
+    "edges": 6207,
+    "control_dep": 1512,
+    "seconds": 0.0049784183502197266,
+    "error": ""
+  },
+  {
+    "id": "PIC16F84-T200",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 3449,
+    "edges": 6446,
+    "control_dep": 1639,
+    "seconds": 0.005151510238647461,
+    "error": ""
+  },
+  {
+    "id": "PIC16F84-T300",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 3355,
+    "edges": 6207,
+    "control_dep": 1512,
+    "seconds": 0.005637645721435547,
+    "error": ""
+  },
+  {
+    "id": "PIC16F84-T300",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 3450,
+    "edges": 6450,
+    "control_dep": 1640,
+    "seconds": 0.004248619079589844,
+    "error": ""
+  },
+  {
+    "id": "PIC16F84-T400",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 3355,
+    "edges": 6207,
+    "control_dep": 1512,
+    "seconds": 0.004371166229248047,
+    "error": ""
+  },
+  {
+    "id": "PIC16F84-T400",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 3450,
+    "edges": 6450,
+    "control_dep": 1640,
+    "seconds": 0.005636453628540039,
+    "error": ""
+  },
+  {
+    "id": "RS232-T100",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 655,
+    "edges": 1183,
+    "control_dep": 330,
+    "seconds": 0.0017762184143066406,
+    "error": ""
+  },
+  {
+    "id": "RS232-T100",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 743,
+    "edges": 1592,
+    "control_dep": 631,
+    "seconds": 0.002276897430419922,
+    "error": ""
+  },
+  {
+    "id": "RS232-T200",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 655,
+    "edges": 1183,
+    "control_dep": 330,
+    "seconds": 0.0015761852264404297,
+    "error": ""
+  },
+  {
+    "id": "RS232-T200",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 731,
+    "edges": 1312,
+    "control_dep": 366,
+    "seconds": 0.001737833023071289,
+    "error": ""
+  },
+  {
+    "id": "RS232-T2100",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 655,
+    "edges": 1183,
+    "control_dep": 330,
+    "seconds": 0.001081228256225586,
+    "error": ""
+  },
+  {
+    "id": "RS232-T2100",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 674,
+    "edges": 1259,
+    "control_dep": 378,
+    "seconds": 0.0015745162963867188,
+    "error": ""
+  },
+  {
+    "id": "RS232-T2200",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 655,
+    "edges": 1183,
+    "control_dep": 330,
+    "seconds": 0.0015943050384521484,
+    "error": ""
+  },
+  {
+    "id": "RS232-T2200",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 673,
+    "edges": 1254,
+    "control_dep": 372,
+    "seconds": 0.0010876655578613281,
+    "error": ""
+  },
+  {
+    "id": "RS232-T2300",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 655,
+    "edges": 1183,
+    "control_dep": 330,
+    "seconds": 0.0015947818756103516,
+    "error": ""
+  },
+  {
+    "id": "RS232-T2300",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 676,
+    "edges": 1276,
+    "control_dep": 390,
+    "seconds": 0.0011675357818603516,
+    "error": ""
+  },
+  {
+    "id": "RS232-T2400",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 655,
+    "edges": 1183,
+    "control_dep": 330,
+    "seconds": 0.001565694808959961,
+    "error": ""
+  },
+  {
+    "id": "RS232-T2400",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 700,
+    "edges": 1338,
+    "control_dep": 417,
+    "seconds": 0.0010950565338134766,
+    "error": ""
+  },
+  {
+    "id": "RS232-T300",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 655,
+    "edges": 1183,
+    "control_dep": 330,
+    "seconds": 0.0011165142059326172,
+    "error": ""
+  },
+  {
+    "id": "RS232-T300",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 671,
+    "edges": 1200,
+    "control_dep": 337,
+    "seconds": 0.0010504722595214844,
+    "error": ""
+  },
+  {
+    "id": "RS232-T400",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 655,
+    "edges": 1183,
+    "control_dep": 330,
+    "seconds": 0.0016448497772216797,
+    "error": ""
+  },
+  {
+    "id": "RS232-T400",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 675,
+    "edges": 1222,
+    "control_dep": 340,
+    "seconds": 0.0010704994201660156,
+    "error": ""
+  },
+  {
+    "id": "RS232-T500",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 655,
+    "edges": 1183,
+    "control_dep": 330,
+    "seconds": 0.0013835430145263672,
+    "error": ""
+  },
+  {
+    "id": "RS232-T500",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 683,
+    "edges": 1227,
+    "control_dep": 340,
+    "seconds": 0.0015554428100585938,
+    "error": ""
+  },
+  {
+    "id": "RS232-T600",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 655,
+    "edges": 1183,
+    "control_dep": 330,
+    "seconds": 0.0010385513305664062,
+    "error": ""
+  },
+  {
+    "id": "RS232-T600",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 705,
+    "edges": 1297,
+    "control_dep": 354,
+    "seconds": 0.0010759830474853516,
+    "error": ""
+  },
+  {
+    "id": "RS232-T700",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 655,
+    "edges": 1183,
+    "control_dep": 330,
+    "seconds": 0.0010569095611572266,
+    "error": ""
+  },
+  {
+    "id": "RS232-T700",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 705,
+    "edges": 1292,
+    "control_dep": 354,
+    "seconds": 0.0010564327239990234,
+    "error": ""
+  },
+  {
+    "id": "RS232-T800",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 655,
+    "edges": 1183,
+    "control_dep": 330,
+    "seconds": 0.00160980224609375,
+    "error": ""
+  },
+  {
+    "id": "RS232-T800",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 739,
+    "edges": 1286,
+    "control_dep": 330,
+    "seconds": 0.0010876655578613281,
+    "error": ""
+  },
+  {
+    "id": "RS232-T900",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 655,
+    "edges": 1183,
+    "control_dep": 330,
+    "seconds": 0.0016202926635742188,
+    "error": ""
+  },
+  {
+    "id": "RS232-T900",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 726,
+    "edges": 1361,
+    "control_dep": 375,
+    "seconds": 0.0012366771697998047,
+    "error": ""
+  },
+  {
+    "id": "RS232-T901",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 655,
+    "edges": 1183,
+    "control_dep": 330,
+    "seconds": 0.001094818115234375,
+    "error": ""
+  },
+  {
+    "id": "RS232-T901",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 726,
+    "edges": 1361,
+    "control_dep": 375,
+    "seconds": 0.0016522407531738281,
+    "error": ""
+  },
+  {
+    "id": "wb_conmax-T200",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 59861,
+    "edges": 220334,
+    "control_dep": 139055,
+    "seconds": 0.16614460945129395,
+    "error": ""
+  },
+  {
+    "id": "wb_conmax-T200",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 59890,
+    "edges": 224247,
+    "control_dep": 142931,
+    "seconds": 0.17001104354858398,
+    "error": ""
+  },
+  {
+    "id": "wb_conmax-T300",
+    "variant": "clean",
+    "stage": "cached",
+    "nodes": 59861,
+    "edges": 220334,
+    "control_dep": 139055,
+    "seconds": 0.1867842674255371,
+    "error": ""
+  },
+  {
+    "id": "wb_conmax-T300",
+    "variant": "infected",
+    "stage": "cached",
+    "nodes": 59981,
+    "edges": 237907,
+    "control_dep": 156468,
+    "seconds": 0.19484233856201172,
+    "error": ""
+  }
+]

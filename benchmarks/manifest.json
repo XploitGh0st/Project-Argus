@@ -169,7 +169,6 @@
     ],
     "design_files_infected": [
       "AES-T1600\\src\\TjIn\\aes_128.v",
-      "AES-T1600\\src\\TjIn\\AES_tb.v",
       "AES-T1600\\src\\TjIn\\AM_Transmission.v",
       "AES-T1600\\src\\TjIn\\round.v",
       "AES-T1600\\src\\TjIn\\table.v",
@@ -192,7 +191,6 @@
     ],
     "design_files_infected": [
       "AES-T1700\\src\\TjIn\\aes_128.v",
-      "AES-T1700\\src\\TjIn\\AES_tb.v",
       "AES-T1700\\src\\TjIn\\AM_Transmission.v",
       "AES-T1700\\src\\TjIn\\round.v",
       "AES-T1700\\src\\TjIn\\table.v",
@@ -215,7 +213,6 @@
     ],
     "design_files_infected": [
       "AES-T1800\\src\\TjIn\\aes_128.v",
-      "AES-T1800\\src\\TjIn\\battery_tb.v",
       "AES-T1800\\src\\TjIn\\round.v",
       "AES-T1800\\src\\TjIn\\table.v",
       "AES-T1800\\src\\TjIn\\top.v",
@@ -237,7 +234,6 @@
     ],
     "design_files_infected": [
       "AES-T1900\\src\\TjIn\\aes_128.v",
-      "AES-T1900\\src\\TjIn\\battery_tb.v",
       "AES-T1900\\src\\TjIn\\round.v",
       "AES-T1900\\src\\TjIn\\table.v",
       "AES-T1900\\src\\TjIn\\top.v",
@@ -466,7 +462,6 @@
     ],
     "design_files_infected": [
       "AES-T400\\src\\TjIn\\aes_128.v",
-      "AES-T400\\src\\TjIn\\AES_tb.v",
       "AES-T400\\src\\TjIn\\AM_Transmission.v",
       "AES-T400\\src\\TjIn\\round.v",
       "AES-T400\\src\\TjIn\\table.v",
@@ -489,7 +484,6 @@
     ],
     "design_files_infected": [
       "AES-T500\\src\\TjIn\\aes_128.v",
-      "AES-T500\\src\\TjIn\\battery_tb.v",
       "AES-T500\\src\\TjIn\\round.v",
       "AES-T500\\src\\TjIn\\table.v",
       "AES-T500\\src\\TjIn\\top.v",

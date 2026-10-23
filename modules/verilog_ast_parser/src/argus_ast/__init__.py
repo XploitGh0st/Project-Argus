@@ -7,6 +7,9 @@ Public API::
     artifact.save("out/")      # ast.pkl + ast.json
 """
 
+from argus_ast.patch_pyverilog import apply_pyverilog_patches
+apply_pyverilog_patches()
+
 from argus_ast.artifact import KIND, SCHEMA_VERSION, ASTArtifact, ast_to_dict
 from argus_ast.parser import parse_verilog, parse_verilog_text
 from argus_ast.preprocess import (
@@ -14,6 +17,7 @@ from argus_ast.preprocess import (
     find_modules,
     find_top_module,
     flatten,
+    normalize_verilog,
     rename_module,
     strip_comments,
 )
@@ -30,6 +34,7 @@ __all__ = [
     "find_modules",
     "find_top_module",
     "flatten",
+    "normalize_verilog",
     "parse_verilog",
     "parse_verilog_text",
     "rename_module",

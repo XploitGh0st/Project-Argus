@@ -16,7 +16,7 @@ OUT = Path(__file__).resolve().parent.parent / "benchmarks" / "manifest.json"
 
 # Families
 VHDL_FAMILIES = {"BasicRSA", "b19", "MC8051"}
-TB_RE = re.compile(r"^(test|tb)", re.IGNORECASE)
+TB_RE = re.compile(r"(^test|^tb|_tb$|_test$)", re.IGNORECASE)
 
 FLAT_RS232 = {f"RS232-T{n}" for n in [100,200,300,400,500,600,700,800,900,901]}
 RS232_CLEAN_BASE = "RS232-T2100"
@@ -28,7 +28,7 @@ def list_verilog(d: Path) -> list[str]:
         return []
     out = []
     for f in sorted(d.rglob("*.v")):
-        if not TB_RE.match(f.stem):
+        if not TB_RE.search(f.stem):
             out.append(str(f.relative_to(TRUSTHUB)))
     return out
 
