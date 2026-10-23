@@ -36,3 +36,10 @@ runs/
 checkpoints/
 *.pt
 *.pth
+
+# TrustHub dataset (never commit)
+TrustHub*/
+TrustHub - Dataset/
+
+# Pipeline cache
+.cache/

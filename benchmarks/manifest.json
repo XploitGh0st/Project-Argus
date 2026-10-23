@@ -1,0 +1,1160 @@
+[
+  {
+    "id": "AES-T100",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T100\\src\\TjFree",
+    "infected_dir": "AES-T100\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T100\\src\\TjFree\\aes_128.v",
+      "AES-T100\\src\\TjFree\\round.v",
+      "AES-T100\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T100\\src\\TjIn\\aes_128.v",
+      "AES-T100\\src\\TjIn\\lfsr.v",
+      "AES-T100\\src\\TjIn\\round.v",
+      "AES-T100\\src\\TjIn\\table.v",
+      "AES-T100\\src\\TjIn\\top.v",
+      "AES-T100\\src\\TjIn\\TSC.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T1000",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T1000\\src\\TjFree",
+    "infected_dir": "AES-T1000\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T1000\\src\\TjFree\\aes_128.v",
+      "AES-T1000\\src\\TjFree\\round.v",
+      "AES-T1000\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T1000\\src\\TjIn\\aes_128.v",
+      "AES-T1000\\src\\TjIn\\lfsr.v",
+      "AES-T1000\\src\\TjIn\\round.v",
+      "AES-T1000\\src\\TjIn\\table.v",
+      "AES-T1000\\src\\TjIn\\top.v",
+      "AES-T1000\\src\\TjIn\\Trojan_Trigger.v",
+      "AES-T1000\\src\\TjIn\\TSC.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T1100",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T1100\\src\\TjFree",
+    "infected_dir": "AES-T1100\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T1100\\src\\TjFree\\aes_128.v",
+      "AES-T1100\\src\\TjFree\\round.v",
+      "AES-T1100\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T1100\\src\\TjIn\\aes_128.v",
+      "AES-T1100\\src\\TjIn\\lfsr.v",
+      "AES-T1100\\src\\TjIn\\round.v",
+      "AES-T1100\\src\\TjIn\\table.v",
+      "AES-T1100\\src\\TjIn\\top.v",
+      "AES-T1100\\src\\TjIn\\Trojan_Trigger.v",
+      "AES-T1100\\src\\TjIn\\TSC.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T1200",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T1200\\src\\TjFree",
+    "infected_dir": "AES-T1200\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T1200\\src\\TjFree\\aes_128.v",
+      "AES-T1200\\src\\TjFree\\round.v",
+      "AES-T1200\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T1200\\src\\TjIn\\aes_128.v",
+      "AES-T1200\\src\\TjIn\\lfsr.v",
+      "AES-T1200\\src\\TjIn\\round.v",
+      "AES-T1200\\src\\TjIn\\table.v",
+      "AES-T1200\\src\\TjIn\\top.v",
+      "AES-T1200\\src\\TjIn\\Trojan_Trigger.v",
+      "AES-T1200\\src\\TjIn\\TSC.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T1300",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T1300\\src\\TjFree",
+    "infected_dir": "AES-T1300\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T1300\\src\\TjFree\\aes_128.v",
+      "AES-T1300\\src\\TjFree\\round.v",
+      "AES-T1300\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T1300\\src\\TjIn\\aes_128.v",
+      "AES-T1300\\src\\TjIn\\round.v",
+      "AES-T1300\\src\\TjIn\\table.v",
+      "AES-T1300\\src\\TjIn\\top.v",
+      "AES-T1300\\src\\TjIn\\Trojan_Trigger.v",
+      "AES-T1300\\src\\TjIn\\TSC.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T1400",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T1400\\src\\TjFree",
+    "infected_dir": "AES-T1400\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T1400\\src\\TjFree\\aes_128.v",
+      "AES-T1400\\src\\TjFree\\round.v",
+      "AES-T1400\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T1400\\src\\TjIn\\aes_128.v",
+      "AES-T1400\\src\\TjIn\\round.v",
+      "AES-T1400\\src\\TjIn\\table.v",
+      "AES-T1400\\src\\TjIn\\top.v",
+      "AES-T1400\\src\\TjIn\\Trojan_Trigger.v",
+      "AES-T1400\\src\\TjIn\\TSC.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T1500",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T1500\\src\\TjFree",
+    "infected_dir": "AES-T1500\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T1500\\src\\TjFree\\aes_128.v",
+      "AES-T1500\\src\\TjFree\\round.v",
+      "AES-T1500\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T1500\\src\\TjIn\\aes_128.v",
+      "AES-T1500\\src\\TjIn\\round.v",
+      "AES-T1500\\src\\TjIn\\table.v",
+      "AES-T1500\\src\\TjIn\\top.v",
+      "AES-T1500\\src\\TjIn\\Trojan_Trigger.v",
+      "AES-T1500\\src\\TjIn\\TSC.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T1600",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T1600\\src\\TjFree",
+    "infected_dir": "AES-T1600\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T1600\\src\\TjFree\\aes_128.v",
+      "AES-T1600\\src\\TjFree\\round.v",
+      "AES-T1600\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T1600\\src\\TjIn\\aes_128.v",
+      "AES-T1600\\src\\TjIn\\AES_tb.v",
+      "AES-T1600\\src\\TjIn\\AM_Transmission.v",
+      "AES-T1600\\src\\TjIn\\round.v",
+      "AES-T1600\\src\\TjIn\\table.v",
+      "AES-T1600\\src\\TjIn\\top.v",
+      "AES-T1600\\src\\TjIn\\Trojan_Trigger.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T1700",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T1700\\src\\TjFree",
+    "infected_dir": "AES-T1700\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T1700\\src\\TjFree\\aes_128.v",
+      "AES-T1700\\src\\TjFree\\round.v",
+      "AES-T1700\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T1700\\src\\TjIn\\aes_128.v",
+      "AES-T1700\\src\\TjIn\\AES_tb.v",
+      "AES-T1700\\src\\TjIn\\AM_Transmission.v",
+      "AES-T1700\\src\\TjIn\\round.v",
+      "AES-T1700\\src\\TjIn\\table.v",
+      "AES-T1700\\src\\TjIn\\top.v",
+      "AES-T1700\\src\\TjIn\\Trojan_Trigger.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T1800",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T1800\\src\\TjFree",
+    "infected_dir": "AES-T1800\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T1800\\src\\TjFree\\aes_128.v",
+      "AES-T1800\\src\\TjFree\\round.v",
+      "AES-T1800\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T1800\\src\\TjIn\\aes_128.v",
+      "AES-T1800\\src\\TjIn\\battery_tb.v",
+      "AES-T1800\\src\\TjIn\\round.v",
+      "AES-T1800\\src\\TjIn\\table.v",
+      "AES-T1800\\src\\TjIn\\top.v",
+      "AES-T1800\\src\\TjIn\\TSC.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T1900",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T1900\\src\\TjFree",
+    "infected_dir": "AES-T1900\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T1900\\src\\TjFree\\aes_128.v",
+      "AES-T1900\\src\\TjFree\\round.v",
+      "AES-T1900\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T1900\\src\\TjIn\\aes_128.v",
+      "AES-T1900\\src\\TjIn\\battery_tb.v",
+      "AES-T1900\\src\\TjIn\\round.v",
+      "AES-T1900\\src\\TjIn\\table.v",
+      "AES-T1900\\src\\TjIn\\top.v",
+      "AES-T1900\\src\\TjIn\\TSC.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T200",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T200\\src\\TjFree",
+    "infected_dir": "AES-T200\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T200\\src\\TjFree\\aes_128.v",
+      "AES-T200\\src\\TjFree\\round.v",
+      "AES-T200\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T200\\src\\TjIn\\aes_128.v",
+      "AES-T200\\src\\TjIn\\lfsr.v",
+      "AES-T200\\src\\TjIn\\round.v",
+      "AES-T200\\src\\TjIn\\table.v",
+      "AES-T200\\src\\TjIn\\top.v",
+      "AES-T200\\src\\TjIn\\TSC.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T2000",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T2000\\src\\TjFree",
+    "infected_dir": "AES-T2000\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T2000\\src\\TjFree\\aes_128.v",
+      "AES-T2000\\src\\TjFree\\round.v",
+      "AES-T2000\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T2000\\src\\TjIn\\aes_128.v",
+      "AES-T2000\\src\\TjIn\\round.v",
+      "AES-T2000\\src\\TjIn\\table.v",
+      "AES-T2000\\src\\TjIn\\top.v",
+      "AES-T2000\\src\\TjIn\\Trojan_Trigger.v",
+      "AES-T2000\\src\\TjIn\\TSC.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T2100",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T2100\\src\\TjFree",
+    "infected_dir": "AES-T2100\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T2100\\src\\TjFree\\aes_128.v",
+      "AES-T2100\\src\\TjFree\\round.v",
+      "AES-T2100\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T2100\\src\\TjIn\\aes_128.v",
+      "AES-T2100\\src\\TjIn\\round.v",
+      "AES-T2100\\src\\TjIn\\table.v",
+      "AES-T2100\\src\\TjIn\\top.v",
+      "AES-T2100\\src\\TjIn\\Trojan_Trigger.v",
+      "AES-T2100\\src\\TjIn\\TSC.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T2300",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T2300\\src\\TjFree",
+    "infected_dir": "AES-T2300\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T2300\\src\\TjFree\\aes_128.v",
+      "AES-T2300\\src\\TjFree\\round.v",
+      "AES-T2300\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T2300\\src\\TjIn\\aes_128.v",
+      "AES-T2300\\src\\TjIn\\round.v",
+      "AES-T2300\\src\\TjIn\\table.v",
+      "AES-T2300\\src\\TjIn\\TSC_and.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T2400",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T2400\\src\\TjFree",
+    "infected_dir": "AES-T2400\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T2400\\src\\TjFree\\aes_128.v",
+      "AES-T2400\\src\\TjFree\\round.v",
+      "AES-T2400\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T2400\\src\\TjIn\\aes_128.v",
+      "AES-T2400\\src\\TjIn\\round.v",
+      "AES-T2400\\src\\TjIn\\table.v",
+      "AES-T2400\\src\\TjIn\\TSC_and.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T2500",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T2500\\src\\TjFree",
+    "infected_dir": "AES-T2500\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T2500\\src\\TjFree\\aes_128.v",
+      "AES-T2500\\src\\TjFree\\round.v",
+      "AES-T2500\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T2500\\src\\TjIn\\aes_128.v",
+      "AES-T2500\\src\\TjIn\\round.v",
+      "AES-T2500\\src\\TjIn\\table.v",
+      "AES-T2500\\src\\TjIn\\TSC_sync_ctr.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T2600",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T2600\\src\\TjFree",
+    "infected_dir": "AES-T2600\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T2600\\src\\TjFree\\aes_128.v",
+      "AES-T2600\\src\\TjFree\\round.v",
+      "AES-T2600\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T2600\\src\\TjIn\\aes_128.v",
+      "AES-T2600\\src\\TjIn\\round.v",
+      "AES-T2600\\src\\TjIn\\table.v",
+      "AES-T2600\\src\\TjIn\\TSC_async_ctr.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T2700",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T2700\\src\\TjFree",
+    "infected_dir": "AES-T2700\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T2700\\src\\TjFree\\aes_128.v",
+      "AES-T2700\\src\\TjFree\\round.v",
+      "AES-T2700\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T2700\\src\\TjIn\\aes_128.v",
+      "AES-T2700\\src\\TjIn\\round.v",
+      "AES-T2700\\src\\TjIn\\table.v",
+      "AES-T2700\\src\\TjIn\\TSC_sync_and_async_ctr.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T2800",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T2800\\src\\TjFree",
+    "infected_dir": "AES-T2800\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T2800\\src\\TjFree\\aes_128.v",
+      "AES-T2800\\src\\TjFree\\round.v",
+      "AES-T2800\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T2800\\src\\TjIn\\aes_128.v",
+      "AES-T2800\\src\\TjIn\\round.v",
+      "AES-T2800\\src\\TjIn\\table.v",
+      "AES-T2800\\src\\TjIn\\TSC.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T300",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T300\\src\\TjFree",
+    "infected_dir": "AES-T300\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T300\\src\\TjFree\\aes_128.v",
+      "AES-T300\\src\\TjFree\\round.v",
+      "AES-T300\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T300\\src\\TjIn\\aes_128.v",
+      "AES-T300\\src\\TjIn\\round.v",
+      "AES-T300\\src\\TjIn\\table.v",
+      "AES-T300\\src\\TjIn\\top.v",
+      "AES-T300\\src\\TjIn\\TSC.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T400",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T400\\src\\TjFree",
+    "infected_dir": "AES-T400\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T400\\src\\TjFree\\aes_128.v",
+      "AES-T400\\src\\TjFree\\round.v",
+      "AES-T400\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T400\\src\\TjIn\\aes_128.v",
+      "AES-T400\\src\\TjIn\\AES_tb.v",
+      "AES-T400\\src\\TjIn\\AM_Transmission.v",
+      "AES-T400\\src\\TjIn\\round.v",
+      "AES-T400\\src\\TjIn\\table.v",
+      "AES-T400\\src\\TjIn\\top.v",
+      "AES-T400\\src\\TjIn\\Trojan_Trigger.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T500",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T500\\src\\TjFree",
+    "infected_dir": "AES-T500\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T500\\src\\TjFree\\aes_128.v",
+      "AES-T500\\src\\TjFree\\round.v",
+      "AES-T500\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T500\\src\\TjIn\\aes_128.v",
+      "AES-T500\\src\\TjIn\\battery_tb.v",
+      "AES-T500\\src\\TjIn\\round.v",
+      "AES-T500\\src\\TjIn\\table.v",
+      "AES-T500\\src\\TjIn\\top.v",
+      "AES-T500\\src\\TjIn\\TSC.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T600",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T600\\src\\TjFree",
+    "infected_dir": "AES-T600\\src\\TnIn",
+    "design_files_clean": [
+      "AES-T600\\src\\TjFree\\aes_128.v",
+      "AES-T600\\src\\TjFree\\round.v",
+      "AES-T600\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T600\\src\\TnIn\\aes_128.v",
+      "AES-T600\\src\\TnIn\\round.v",
+      "AES-T600\\src\\TnIn\\table.v",
+      "AES-T600\\src\\TnIn\\top.v",
+      "AES-T600\\src\\TnIn\\Trojan_Trigger.v",
+      "AES-T600\\src\\TnIn\\TSC.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T700",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T700\\src\\TjFree",
+    "infected_dir": "AES-T700\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T700\\src\\TjFree\\aes_128.v",
+      "AES-T700\\src\\TjFree\\round.v",
+      "AES-T700\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T700\\src\\TjIn\\aes_128.v",
+      "AES-T700\\src\\TjIn\\lfsr.v",
+      "AES-T700\\src\\TjIn\\round.v",
+      "AES-T700\\src\\TjIn\\table.v",
+      "AES-T700\\src\\TjIn\\top.v",
+      "AES-T700\\src\\TjIn\\Trojan_Trigger.v",
+      "AES-T700\\src\\TjIn\\TSC.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T800",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T800\\src\\TjFree",
+    "infected_dir": "AES-T800\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T800\\src\\TjFree\\aes_128.v",
+      "AES-T800\\src\\TjFree\\round.v",
+      "AES-T800\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T800\\src\\TjIn\\aes_128.v",
+      "AES-T800\\src\\TjIn\\lfsr.v",
+      "AES-T800\\src\\TjIn\\round.v",
+      "AES-T800\\src\\TjIn\\table.v",
+      "AES-T800\\src\\TjIn\\top.v",
+      "AES-T800\\src\\TjIn\\Trojan_Trigger.v",
+      "AES-T800\\src\\TjIn\\TSC.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "AES-T900",
+    "family": "AES",
+    "language": "Verilog",
+    "clean_dir": "AES-T900\\src\\TjFree",
+    "infected_dir": "AES-T900\\src\\TjIn",
+    "design_files_clean": [
+      "AES-T900\\src\\TjFree\\aes_128.v",
+      "AES-T900\\src\\TjFree\\round.v",
+      "AES-T900\\src\\TjFree\\table.v"
+    ],
+    "design_files_infected": [
+      "AES-T900\\src\\TjIn\\aes_128.v",
+      "AES-T900\\src\\TjIn\\lfsr.v",
+      "AES-T900\\src\\TjIn\\round.v",
+      "AES-T900\\src\\TjIn\\table.v",
+      "AES-T900\\src\\TjIn\\top.v",
+      "AES-T900\\src\\TjIn\\Trojan_Trigger.v",
+      "AES-T900\\src\\TjIn\\TSC.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "b19-T300",
+    "family": "b19",
+    "language": "VHDL",
+    "clean_dir": null,
+    "infected_dir": null,
+    "design_files_clean": [],
+    "design_files_infected": [],
+    "status": "excluded",
+    "reason": "VHDL out of scope"
+  },
+  {
+    "id": "b19-T400",
+    "family": "b19",
+    "language": "VHDL",
+    "clean_dir": null,
+    "infected_dir": null,
+    "design_files_clean": [],
+    "design_files_infected": [],
+    "status": "excluded",
+    "reason": "VHDL out of scope"
+  },
+  {
+    "id": "b19-T500",
+    "family": "b19",
+    "language": "VHDL",
+    "clean_dir": null,
+    "infected_dir": null,
+    "design_files_clean": [],
+    "design_files_infected": [],
+    "status": "excluded",
+    "reason": "VHDL out of scope"
+  },
+  {
+    "id": "BasicRSA-T100",
+    "family": "BasicRSA",
+    "language": "VHDL",
+    "clean_dir": null,
+    "infected_dir": null,
+    "design_files_clean": [],
+    "design_files_infected": [],
+    "status": "excluded",
+    "reason": "VHDL out of scope"
+  },
+  {
+    "id": "BasicRSA-T200",
+    "family": "BasicRSA",
+    "language": "VHDL",
+    "clean_dir": null,
+    "infected_dir": null,
+    "design_files_clean": [],
+    "design_files_infected": [],
+    "status": "excluded",
+    "reason": "VHDL out of scope"
+  },
+  {
+    "id": "BasicRSA-T300",
+    "family": "BasicRSA",
+    "language": "VHDL",
+    "clean_dir": null,
+    "infected_dir": null,
+    "design_files_clean": [],
+    "design_files_infected": [],
+    "status": "excluded",
+    "reason": "VHDL out of scope"
+  },
+  {
+    "id": "BasicRSA-T400",
+    "family": "BasicRSA",
+    "language": "VHDL",
+    "clean_dir": null,
+    "infected_dir": null,
+    "design_files_clean": [],
+    "design_files_infected": [],
+    "status": "excluded",
+    "reason": "VHDL out of scope"
+  },
+  {
+    "id": "MC8051-T200",
+    "family": "MC8051",
+    "language": "VHDL",
+    "clean_dir": null,
+    "infected_dir": null,
+    "design_files_clean": [],
+    "design_files_infected": [],
+    "status": "excluded",
+    "reason": "VHDL out of scope"
+  },
+  {
+    "id": "MC8051-T300",
+    "family": "MC8051",
+    "language": "VHDL",
+    "clean_dir": null,
+    "infected_dir": null,
+    "design_files_clean": [],
+    "design_files_infected": [],
+    "status": "excluded",
+    "reason": "VHDL out of scope"
+  },
+  {
+    "id": "MC8051-T400",
+    "family": "MC8051",
+    "language": "VHDL",
+    "clean_dir": null,
+    "infected_dir": null,
+    "design_files_clean": [],
+    "design_files_infected": [],
+    "status": "excluded",
+    "reason": "VHDL out of scope"
+  },
+  {
+    "id": "MC8051-T500",
+    "family": "MC8051",
+    "language": "VHDL",
+    "clean_dir": null,
+    "infected_dir": null,
+    "design_files_clean": [],
+    "design_files_infected": [],
+    "status": "excluded",
+    "reason": "VHDL out of scope"
+  },
+  {
+    "id": "MC8051-T600",
+    "family": "MC8051",
+    "language": "VHDL",
+    "clean_dir": null,
+    "infected_dir": null,
+    "design_files_clean": [],
+    "design_files_infected": [],
+    "status": "excluded",
+    "reason": "VHDL out of scope"
+  },
+  {
+    "id": "MC8051-T700",
+    "family": "MC8051",
+    "language": "VHDL",
+    "clean_dir": null,
+    "infected_dir": null,
+    "design_files_clean": [],
+    "design_files_infected": [],
+    "status": "excluded",
+    "reason": "VHDL out of scope"
+  },
+  {
+    "id": "MC8051-T800",
+    "family": "MC8051",
+    "language": "VHDL",
+    "clean_dir": null,
+    "infected_dir": null,
+    "design_files_clean": [],
+    "design_files_infected": [],
+    "status": "excluded",
+    "reason": "VHDL out of scope"
+  },
+  {
+    "id": "memctrl-T100",
+    "family": "memctrl",
+    "language": "Verilog",
+    "clean_dir": null,
+    "infected_dir": "memctrl-T100\\rtl\\verilog",
+    "design_files_clean": [],
+    "design_files_infected": [
+      "memctrl-T100\\rtl\\verilog\\mc_adr_sel.v",
+      "memctrl-T100\\rtl\\verilog\\mc_cs_rf.v",
+      "memctrl-T100\\rtl\\verilog\\mc_defines.v",
+      "memctrl-T100\\rtl\\verilog\\mc_dp.v",
+      "memctrl-T100\\rtl\\verilog\\mc_incn_r.v",
+      "memctrl-T100\\rtl\\verilog\\mc_mem_if.v",
+      "memctrl-T100\\rtl\\verilog\\mc_obct.v",
+      "memctrl-T100\\rtl\\verilog\\mc_obct_top.v",
+      "memctrl-T100\\rtl\\verilog\\mc_rd_fifo.v",
+      "memctrl-T100\\rtl\\verilog\\mc_refresh.v",
+      "memctrl-T100\\rtl\\verilog\\mc_rf.v",
+      "memctrl-T100\\rtl\\verilog\\mc_timing.v",
+      "memctrl-T100\\rtl\\verilog\\mc_top.v",
+      "memctrl-T100\\rtl\\verilog\\mc_wb_if.v"
+    ],
+    "status": "no_clean",
+    "reason": "no clean reference available"
+  },
+  {
+    "id": "PIC16F84-T100",
+    "family": "PIC16F84",
+    "language": "Verilog",
+    "clean_dir": "PIC16F84-T100\\src\\TjFree",
+    "infected_dir": "PIC16F84-T100\\src\\TjIn",
+    "design_files_clean": [
+      "PIC16F84-T100\\src\\TjFree\\risc16f84.v"
+    ],
+    "design_files_infected": [
+      "PIC16F84-T100\\src\\TjIn\\risc16f84.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "PIC16F84-T200",
+    "family": "PIC16F84",
+    "language": "Verilog",
+    "clean_dir": "PIC16F84-T200\\src\\TjFree",
+    "infected_dir": "PIC16F84-T200\\src\\TjIn",
+    "design_files_clean": [
+      "PIC16F84-T200\\src\\TjFree\\risc16f84.v"
+    ],
+    "design_files_infected": [
+      "PIC16F84-T200\\src\\TjIn\\risc16f84.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "PIC16F84-T300",
+    "family": "PIC16F84",
+    "language": "Verilog",
+    "clean_dir": "PIC16F84-T300\\src\\TjFree",
+    "infected_dir": "PIC16F84-T300\\src\\TjIn",
+    "design_files_clean": [
+      "PIC16F84-T300\\src\\TjFree\\risc16f84.v"
+    ],
+    "design_files_infected": [
+      "PIC16F84-T300\\src\\TjIn\\risc16f84.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "PIC16F84-T400",
+    "family": "PIC16F84",
+    "language": "Verilog",
+    "clean_dir": "PIC16F84-T400\\src\\TjFree",
+    "infected_dir": "PIC16F84-T400\\src\\TjIn",
+    "design_files_clean": [
+      "PIC16F84-T400\\src\\TjFree\\risc16f84.v"
+    ],
+    "design_files_infected": [
+      "PIC16F84-T400\\src\\TjIn\\risc16f84.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "RS232-T100",
+    "family": "RS232",
+    "language": "Verilog",
+    "clean_dir": "RS232-T2100\\src\\TjFree",
+    "infected_dir": "RS232-T100\\src",
+    "design_files_clean": [
+      "RS232-T2100\\src\\TjFree\\u_rec.v",
+      "RS232-T2100\\src\\TjFree\\u_xmit.v",
+      "RS232-T2100\\src\\TjFree\\uart.v"
+    ],
+    "design_files_infected": [
+      "RS232-T100\\src\\u_rec.v",
+      "RS232-T100\\src\\u_xmit.v",
+      "RS232-T100\\src\\uart.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "RS232-T200",
+    "family": "RS232",
+    "language": "Verilog",
+    "clean_dir": "RS232-T2100\\src\\TjFree",
+    "infected_dir": "RS232-T200\\src",
+    "design_files_clean": [
+      "RS232-T2100\\src\\TjFree\\u_rec.v",
+      "RS232-T2100\\src\\TjFree\\u_xmit.v",
+      "RS232-T2100\\src\\TjFree\\uart.v"
+    ],
+    "design_files_infected": [
+      "RS232-T200\\src\\u_rec.v",
+      "RS232-T200\\src\\u_xmit.v",
+      "RS232-T200\\src\\uart.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "RS232-T2100",
+    "family": "RS232",
+    "language": "Verilog",
+    "clean_dir": "RS232-T2100\\src\\TjFree",
+    "infected_dir": "RS232-T2100\\src\\TjIn",
+    "design_files_clean": [
+      "RS232-T2100\\src\\TjFree\\u_rec.v",
+      "RS232-T2100\\src\\TjFree\\u_xmit.v",
+      "RS232-T2100\\src\\TjFree\\uart.v"
+    ],
+    "design_files_infected": [
+      "RS232-T2100\\src\\TjIn\\u_rec.v",
+      "RS232-T2100\\src\\TjIn\\u_xmit.v",
+      "RS232-T2100\\src\\TjIn\\uart.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "RS232-T2200",
+    "family": "RS232",
+    "language": "Verilog",
+    "clean_dir": "RS232-T2200\\src\\TjFree",
+    "infected_dir": "RS232-T2200\\src\\TjIn",
+    "design_files_clean": [
+      "RS232-T2200\\src\\TjFree\\u_rec.v",
+      "RS232-T2200\\src\\TjFree\\u_xmit.v",
+      "RS232-T2200\\src\\TjFree\\uart.v"
+    ],
+    "design_files_infected": [
+      "RS232-T2200\\src\\TjIn\\u_rec.v",
+      "RS232-T2200\\src\\TjIn\\u_xmit.v",
+      "RS232-T2200\\src\\TjIn\\uart.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "RS232-T2300",
+    "family": "RS232",
+    "language": "Verilog",
+    "clean_dir": "RS232-T2300\\src\\TjFree",
+    "infected_dir": "RS232-T2300\\src\\TjIn",
+    "design_files_clean": [
+      "RS232-T2300\\src\\TjFree\\u_rec.v",
+      "RS232-T2300\\src\\TjFree\\u_xmit.v",
+      "RS232-T2300\\src\\TjFree\\uart.v"
+    ],
+    "design_files_infected": [
+      "RS232-T2300\\src\\TjIn\\u_rec.v",
+      "RS232-T2300\\src\\TjIn\\u_xmit.v",
+      "RS232-T2300\\src\\TjIn\\uart.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "RS232-T2400",
+    "family": "RS232",
+    "language": "Verilog",
+    "clean_dir": "RS232-T2400\\src\\TjFree",
+    "infected_dir": "RS232-T2400\\src\\TjIn",
+    "design_files_clean": [
+      "RS232-T2400\\src\\TjFree\\u_rec.v",
+      "RS232-T2400\\src\\TjFree\\u_xmit.v",
+      "RS232-T2400\\src\\TjFree\\uart.v"
+    ],
+    "design_files_infected": [
+      "RS232-T2400\\src\\TjIn\\u_rec.v",
+      "RS232-T2400\\src\\TjIn\\u_xmit.v",
+      "RS232-T2400\\src\\TjIn\\uart.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "RS232-T300",
+    "family": "RS232",
+    "language": "Verilog",
+    "clean_dir": "RS232-T2100\\src\\TjFree",
+    "infected_dir": "RS232-T300\\src",
+    "design_files_clean": [
+      "RS232-T2100\\src\\TjFree\\u_rec.v",
+      "RS232-T2100\\src\\TjFree\\u_xmit.v",
+      "RS232-T2100\\src\\TjFree\\uart.v"
+    ],
+    "design_files_infected": [
+      "RS232-T300\\src\\u_rec.v",
+      "RS232-T300\\src\\u_xmit.v",
+      "RS232-T300\\src\\uart.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "RS232-T400",
+    "family": "RS232",
+    "language": "Verilog",
+    "clean_dir": "RS232-T2100\\src\\TjFree",
+    "infected_dir": "RS232-T400\\src",
+    "design_files_clean": [
+      "RS232-T2100\\src\\TjFree\\u_rec.v",
+      "RS232-T2100\\src\\TjFree\\u_xmit.v",
+      "RS232-T2100\\src\\TjFree\\uart.v"
+    ],
+    "design_files_infected": [
+      "RS232-T400\\src\\u_rec.v",
+      "RS232-T400\\src\\u_xmit.v",
+      "RS232-T400\\src\\uart.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "RS232-T500",
+    "family": "RS232",
+    "language": "Verilog",
+    "clean_dir": "RS232-T2100\\src\\TjFree",
+    "infected_dir": "RS232-T500\\src",
+    "design_files_clean": [
+      "RS232-T2100\\src\\TjFree\\u_rec.v",
+      "RS232-T2100\\src\\TjFree\\u_xmit.v",
+      "RS232-T2100\\src\\TjFree\\uart.v"
+    ],
+    "design_files_infected": [
+      "RS232-T500\\src\\u_rec.v",
+      "RS232-T500\\src\\u_xmit.v",
+      "RS232-T500\\src\\uart.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "RS232-T600",
+    "family": "RS232",
+    "language": "Verilog",
+    "clean_dir": "RS232-T2100\\src\\TjFree",
+    "infected_dir": "RS232-T600\\src",
+    "design_files_clean": [
+      "RS232-T2100\\src\\TjFree\\u_rec.v",
+      "RS232-T2100\\src\\TjFree\\u_xmit.v",
+      "RS232-T2100\\src\\TjFree\\uart.v"
+    ],
+    "design_files_infected": [
+      "RS232-T600\\src\\u_rec.v",
+      "RS232-T600\\src\\u_xmit.v",
+      "RS232-T600\\src\\uart.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "RS232-T700",
+    "family": "RS232",
+    "language": "Verilog",
+    "clean_dir": "RS232-T2100\\src\\TjFree",
+    "infected_dir": "RS232-T700\\src",
+    "design_files_clean": [
+      "RS232-T2100\\src\\TjFree\\u_rec.v",
+      "RS232-T2100\\src\\TjFree\\u_xmit.v",
+      "RS232-T2100\\src\\TjFree\\uart.v"
+    ],
+    "design_files_infected": [
+      "RS232-T700\\src\\u_rec.v",
+      "RS232-T700\\src\\u_xmit.v",
+      "RS232-T700\\src\\uart.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "RS232-T800",
+    "family": "RS232",
+    "language": "Verilog",
+    "clean_dir": "RS232-T2100\\src\\TjFree",
+    "infected_dir": "RS232-T800\\src",
+    "design_files_clean": [
+      "RS232-T2100\\src\\TjFree\\u_rec.v",
+      "RS232-T2100\\src\\TjFree\\u_xmit.v",
+      "RS232-T2100\\src\\TjFree\\uart.v"
+    ],
+    "design_files_infected": [
+      "RS232-T800\\src\\u_rec.v",
+      "RS232-T800\\src\\u_xmit.v",
+      "RS232-T800\\src\\uart.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "RS232-T900",
+    "family": "RS232",
+    "language": "Verilog",
+    "clean_dir": "RS232-T2100\\src\\TjFree",
+    "infected_dir": "RS232-T900\\src",
+    "design_files_clean": [
+      "RS232-T2100\\src\\TjFree\\u_rec.v",
+      "RS232-T2100\\src\\TjFree\\u_xmit.v",
+      "RS232-T2100\\src\\TjFree\\uart.v"
+    ],
+    "design_files_infected": [
+      "RS232-T900\\src\\u_rec.v",
+      "RS232-T900\\src\\u_xmit.v",
+      "RS232-T900\\src\\uart.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "RS232-T901",
+    "family": "RS232",
+    "language": "Verilog",
+    "clean_dir": "RS232-T2100\\src\\TjFree",
+    "infected_dir": "RS232-T901\\src",
+    "design_files_clean": [
+      "RS232-T2100\\src\\TjFree\\u_rec.v",
+      "RS232-T2100\\src\\TjFree\\u_xmit.v",
+      "RS232-T2100\\src\\TjFree\\uart.v"
+    ],
+    "design_files_infected": [
+      "RS232-T901\\src\\u_rec.v",
+      "RS232-T901\\src\\u_xmit.v",
+      "RS232-T901\\src\\uart.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "wb_conmax-T200",
+    "family": "wb_conmax",
+    "language": "Verilog",
+    "clean_dir": "wb_conmax-T200\\src\\TjFree",
+    "infected_dir": "wb_conmax-T200\\src\\TjIn",
+    "design_files_clean": [
+      "wb_conmax-T200\\src\\TjFree\\wb_conmax_arb.v",
+      "wb_conmax-T200\\src\\TjFree\\wb_conmax_defines.v",
+      "wb_conmax-T200\\src\\TjFree\\wb_conmax_master_if.v",
+      "wb_conmax-T200\\src\\TjFree\\wb_conmax_msel.v",
+      "wb_conmax-T200\\src\\TjFree\\wb_conmax_pri_dec.v",
+      "wb_conmax-T200\\src\\TjFree\\wb_conmax_pri_enc.v",
+      "wb_conmax-T200\\src\\TjFree\\wb_conmax_rf.v",
+      "wb_conmax-T200\\src\\TjFree\\wb_conmax_slave_if.v",
+      "wb_conmax-T200\\src\\TjFree\\wb_conmax_top.v"
+    ],
+    "design_files_infected": [
+      "wb_conmax-T200\\src\\TjIn\\wb_conmax_arb.v",
+      "wb_conmax-T200\\src\\TjIn\\wb_conmax_defines.v",
+      "wb_conmax-T200\\src\\TjIn\\wb_conmax_master_if.v",
+      "wb_conmax-T200\\src\\TjIn\\wb_conmax_msel.v",
+      "wb_conmax-T200\\src\\TjIn\\wb_conmax_pri_dec.v",
+      "wb_conmax-T200\\src\\TjIn\\wb_conmax_pri_enc.v",
+      "wb_conmax-T200\\src\\TjIn\\wb_conmax_rf.v",
+      "wb_conmax-T200\\src\\TjIn\\wb_conmax_slave_if.v",
+      "wb_conmax-T200\\src\\TjIn\\wb_conmax_top.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  },
+  {
+    "id": "wb_conmax-T300",
+    "family": "wb_conmax",
+    "language": "Verilog",
+    "clean_dir": "wb_conmax-T300\\src\\TjFree",
+    "infected_dir": "wb_conmax-T300\\src\\TjIn",
+    "design_files_clean": [
+      "wb_conmax-T300\\src\\TjFree\\wb_conmax_arb.v",
+      "wb_conmax-T300\\src\\TjFree\\wb_conmax_defines.v",
+      "wb_conmax-T300\\src\\TjFree\\wb_conmax_master_if.v",
+      "wb_conmax-T300\\src\\TjFree\\wb_conmax_msel.v",
+      "wb_conmax-T300\\src\\TjFree\\wb_conmax_pri_dec.v",
+      "wb_conmax-T300\\src\\TjFree\\wb_conmax_pri_enc.v",
+      "wb_conmax-T300\\src\\TjFree\\wb_conmax_rf.v",
+      "wb_conmax-T300\\src\\TjFree\\wb_conmax_slave_if.v",
+      "wb_conmax-T300\\src\\TjFree\\wb_conmax_top.v"
+    ],
+    "design_files_infected": [
+      "wb_conmax-T300\\src\\TjIn\\wb_conmax_arb.v",
+      "wb_conmax-T300\\src\\TjIn\\wb_conmax_defines.v",
+      "wb_conmax-T300\\src\\TjIn\\wb_conmax_master_if.v",
+      "wb_conmax-T300\\src\\TjIn\\wb_conmax_msel.v",
+      "wb_conmax-T300\\src\\TjIn\\wb_conmax_pri_dec.v",
+      "wb_conmax-T300\\src\\TjIn\\wb_conmax_pri_enc.v",
+      "wb_conmax-T300\\src\\TjIn\\wb_conmax_rf.v",
+      "wb_conmax-T300\\src\\TjIn\\wb_conmax_slave_if.v",
+      "wb_conmax-T300\\src\\TjIn\\wb_conmax_top.v"
+    ],
+    "status": "ok",
+    "reason": ""
+  }
+]
