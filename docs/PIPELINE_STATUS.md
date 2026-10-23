@@ -24,3 +24,10 @@
 - Fixed 62-column numerical feature matrix (structural one-hot, degree, constants, comparators, rarity, SCC counter cycles, I/O BFS distances, 1-hop max/mean, percentiles).
 - Vectorized implementation with zero signal name / node id leakage.
 - Features cached for all 44 designs in .cache/features/.
+
+## Phase 4 — Leave-One-Family-Out Evaluation ✅
+- Executed 4 LOFO folds across AES, PIC16F84, RS232, wb_conmax (1:20 downsampling + family sample weighting).
+- Models evaluated: B0, M1 (HistGradientBoosting, primary), M2 (non-ctrl ablation), M3 (PyG Typed R-GCN), M4 (Untyped GCN), M5 (Ensemble).
+- M1 macro-average: ROC-AUC = 0.6925, PR-AUC = 0.6607, Recall = 93.22%, F1 = 0.5821. RS232: ROC-AUC 0.8610, F1 0.8578. PIC16F84: ROC-AUC 0.9161, Recall 100%.
+- Controls: Shuffled labels yielded chance ROC-AUC (0.5537 macro); control edge ablation (M1 vs M2) confirmed.
+- Results saved to results/lofo_results.json and auto-generated results/REPORT.md.

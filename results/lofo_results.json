@@ -1,0 +1,941 @@
+{
+  "models": [
+    "B0",
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M5"
+  ],
+  "controls": [
+    "M1_shuffled_control"
+  ],
+  "families": {
+    "AES": {
+      "headline_threshold": 0.24750096390860898,
+      "median_threshold": 0.5723771128423986,
+      "metrics": {
+        "B0": {
+          "roc_auc": 0.6147,
+          "pr_auc": 0.0251,
+          "precision": 0.0127,
+          "recall": 0.9876,
+          "f1": 0.025,
+          "threshold": 0.2475,
+          "n_total": 8830969,
+          "n_pos": 113043
+        },
+        "M1": {
+          "roc_auc": 0.3924,
+          "pr_auc": 0.0102,
+          "precision": 0.0121,
+          "recall": 0.9254,
+          "f1": 0.0238,
+          "threshold": 0.2475,
+          "n_total": 8830969,
+          "n_pos": 113043
+        },
+        "M2": {
+          "roc_auc": 0.4091,
+          "pr_auc": 0.0105,
+          "precision": 0.0123,
+          "recall": 0.9452,
+          "f1": 0.0243,
+          "threshold": 0.2475,
+          "n_total": 8830969,
+          "n_pos": 113043
+        },
+        "M3": {
+          "roc_auc": 0.6631,
+          "pr_auc": 0.0294,
+          "precision": 0.0147,
+          "recall": 0.8426,
+          "f1": 0.0289,
+          "threshold": 0.2475,
+          "n_total": 8830969,
+          "n_pos": 113043
+        },
+        "M4": {
+          "roc_auc": 0.6615,
+          "pr_auc": 0.0247,
+          "precision": 0.0134,
+          "recall": 0.7681,
+          "f1": 0.0264,
+          "threshold": 0.2475,
+          "n_total": 8830969,
+          "n_pos": 113043
+        },
+        "M5": {
+          "roc_auc": 0.5246,
+          "pr_auc": 0.0177,
+          "precision": 0.0118,
+          "recall": 0.9031,
+          "f1": 0.0233,
+          "threshold": 0.2475,
+          "n_total": 8830969,
+          "n_pos": 113043
+        },
+        "M1_shuffled": {
+          "roc_auc": 0.6238,
+          "pr_auc": 0.0793,
+          "precision": 0.0128,
+          "recall": 1.0,
+          "f1": 0.0253,
+          "threshold": 0.2475,
+          "n_total": 8830969,
+          "n_pos": 113043
+        },
+        "delta_roc_auc_m1_vs_m2": -0.0167
+      },
+      "benchmarks": [
+        {
+          "roc_auc": 0.0776,
+          "pr_auc": 0.0043,
+          "precision": 0.0065,
+          "recall": 0.7986,
+          "f1": 0.0129,
+          "threshold": 0.2475,
+          "n_total": 368053,
+          "n_pos": 2930,
+          "benchmark": "AES-T100"
+        },
+        {
+          "roc_auc": 0.0851,
+          "pr_auc": 0.0044,
+          "precision": 0.0065,
+          "recall": 0.8007,
+          "f1": 0.013,
+          "threshold": 0.2475,
+          "n_total": 368074,
+          "n_pos": 2951,
+          "benchmark": "AES-T1000"
+        },
+        {
+          "roc_auc": 0.0904,
+          "pr_auc": 0.0045,
+          "precision": 0.0067,
+          "recall": 0.805,
+          "f1": 0.0133,
+          "threshold": 0.2475,
+          "n_total": 368139,
+          "n_pos": 3016,
+          "benchmark": "AES-T1100"
+        },
+        {
+          "roc_auc": 0.0834,
+          "pr_auc": 0.0044,
+          "precision": 0.0066,
+          "recall": 0.8008,
+          "f1": 0.013,
+          "threshold": 0.2475,
+          "n_total": 368080,
+          "n_pos": 2957,
+          "benchmark": "AES-T1200"
+        },
+        {
+          "roc_auc": 0.5481,
+          "pr_auc": 0.0377,
+          "precision": 0.0303,
+          "recall": 0.9504,
+          "f1": 0.0588,
+          "threshold": 0.2475,
+          "n_total": 368251,
+          "n_pos": 11520,
+          "benchmark": "AES-T1300"
+        },
+        {
+          "roc_auc": 0.5477,
+          "pr_auc": 0.0378,
+          "precision": 0.0305,
+          "recall": 0.9512,
+          "f1": 0.059,
+          "threshold": 0.2475,
+          "n_total": 368318,
+          "n_pos": 11587,
+          "benchmark": "AES-T1400"
+        },
+        {
+          "roc_auc": 0.5502,
+          "pr_auc": 0.038,
+          "precision": 0.0304,
+          "recall": 0.9506,
+          "f1": 0.0588,
+          "threshold": 0.2475,
+          "n_total": 368259,
+          "n_pos": 11528,
+          "benchmark": "AES-T1500"
+        },
+        {
+          "roc_auc": 0.0828,
+          "pr_auc": 0.004,
+          "precision": 0.0069,
+          "recall": 0.9255,
+          "f1": 0.0136,
+          "threshold": 0.2475,
+          "n_total": 367795,
+          "n_pos": 2672,
+          "benchmark": "AES-T1800"
+        },
+        {
+          "roc_auc": 0.0785,
+          "pr_auc": 0.004,
+          "precision": 0.0069,
+          "recall": 0.9253,
+          "f1": 0.0136,
+          "threshold": 0.2475,
+          "n_total": 367802,
+          "n_pos": 2679,
+          "benchmark": "AES-T1900"
+        },
+        {
+          "roc_auc": 0.0775,
+          "pr_auc": 0.0043,
+          "precision": 0.0065,
+          "recall": 0.7982,
+          "f1": 0.0129,
+          "threshold": 0.2475,
+          "n_total": 368057,
+          "n_pos": 2934,
+          "benchmark": "AES-T200"
+        },
+        {
+          "roc_auc": 0.0898,
+          "pr_auc": 0.0041,
+          "precision": 0.0071,
+          "recall": 0.9227,
+          "f1": 0.014,
+          "threshold": 0.2475,
+          "n_total": 367890,
+          "n_pos": 2767,
+          "benchmark": "AES-T2000"
+        },
+        {
+          "roc_auc": 0.078,
+          "pr_auc": 0.004,
+          "precision": 0.0069,
+          "recall": 0.9206,
+          "f1": 0.0137,
+          "threshold": 0.2475,
+          "n_total": 367830,
+          "n_pos": 2707,
+          "benchmark": "AES-T2100"
+        },
+        {
+          "roc_auc": 0.0713,
+          "pr_auc": 0.0002,
+          "precision": 0.0003,
+          "recall": 0.9245,
+          "f1": 0.0005,
+          "threshold": 0.2475,
+          "n_total": 367586,
+          "n_pos": 106,
+          "benchmark": "AES-T2300"
+        },
+        {
+          "roc_auc": 0.0707,
+          "pr_auc": 0.0002,
+          "precision": 0.0003,
+          "recall": 0.9245,
+          "f1": 0.0005,
+          "threshold": 0.2475,
+          "n_total": 367586,
+          "n_pos": 106,
+          "benchmark": "AES-T2400"
+        },
+        {
+          "roc_auc": 0.1502,
+          "pr_auc": 0.0002,
+          "precision": 0.0003,
+          "recall": 0.9038,
+          "f1": 0.0005,
+          "threshold": 0.2475,
+          "n_total": 367592,
+          "n_pos": 104,
+          "benchmark": "AES-T2500"
+        },
+        {
+          "roc_auc": 0.6398,
+          "pr_auc": 0.0359,
+          "precision": 0.024,
+          "recall": 0.9984,
+          "f1": 0.0468,
+          "threshold": 0.2475,
+          "n_total": 367601,
+          "n_pos": 8657,
+          "benchmark": "AES-T2600"
+        },
+        {
+          "roc_auc": 0.1607,
+          "pr_auc": 0.0002,
+          "precision": 0.0003,
+          "recall": 0.9098,
+          "f1": 0.0006,
+          "threshold": 0.2475,
+          "n_total": 367610,
+          "n_pos": 122,
+          "benchmark": "AES-T2700"
+        },
+        {
+          "roc_auc": 0.5943,
+          "pr_auc": 0.0571,
+          "precision": 0.0477,
+          "recall": 0.9988,
+          "f1": 0.0911,
+          "threshold": 0.2475,
+          "n_total": 367619,
+          "n_pos": 17219,
+          "benchmark": "AES-T2800"
+        },
+        {
+          "roc_auc": 0.5474,
+          "pr_auc": 0.0376,
+          "precision": 0.0302,
+          "recall": 0.9496,
+          "f1": 0.0586,
+          "threshold": 0.2475,
+          "n_total": 368230,
+          "n_pos": 11499,
+          "benchmark": "AES-T300"
+        },
+        {
+          "roc_auc": 0.0897,
+          "pr_auc": 0.0041,
+          "precision": 0.007,
+          "recall": 0.9277,
+          "f1": 0.014,
+          "threshold": 0.2475,
+          "n_total": 367862,
+          "n_pos": 2739,
+          "benchmark": "AES-T500"
+        },
+        {
+          "roc_auc": 0.0785,
+          "pr_auc": 0.0041,
+          "precision": 0.007,
+          "recall": 0.9208,
+          "f1": 0.0139,
+          "threshold": 0.2475,
+          "n_total": 367862,
+          "n_pos": 2739,
+          "benchmark": "AES-T600"
+        },
+        {
+          "roc_auc": 0.092,
+          "pr_auc": 0.0046,
+          "precision": 0.0069,
+          "recall": 0.7999,
+          "f1": 0.0138,
+          "threshold": 0.2475,
+          "n_total": 368266,
+          "n_pos": 3143,
+          "benchmark": "AES-T700"
+        },
+        {
+          "roc_auc": 0.1018,
+          "pr_auc": 0.0047,
+          "precision": 0.0071,
+          "recall": 0.8044,
+          "f1": 0.0141,
+          "threshold": 0.2475,
+          "n_total": 368333,
+          "n_pos": 3210,
+          "benchmark": "AES-T800"
+        },
+        {
+          "roc_auc": 0.0955,
+          "pr_auc": 0.0047,
+          "precision": 0.007,
+          "recall": 0.8004,
+          "f1": 0.0138,
+          "threshold": 0.2475,
+          "n_total": 368274,
+          "n_pos": 3151,
+          "benchmark": "AES-T900"
+        }
+      ]
+    },
+    "PIC16F84": {
+      "headline_threshold": 0.02882123839428318,
+      "median_threshold": 0.03125538801397738,
+      "metrics": {
+        "B0": {
+          "roc_auc": 0.4988,
+          "pr_auc": 0.4835,
+          "precision": 0.4841,
+          "recall": 0.9996,
+          "f1": 0.6523,
+          "threshold": 0.0288,
+          "n_total": 13795,
+          "n_pos": 6678
+        },
+        "M1": {
+          "roc_auc": 0.9161,
+          "pr_auc": 0.9182,
+          "precision": 0.4909,
+          "recall": 1.0,
+          "f1": 0.6585,
+          "threshold": 0.0288,
+          "n_total": 13795,
+          "n_pos": 6678
+        },
+        "M2": {
+          "roc_auc": 0.9031,
+          "pr_auc": 0.9148,
+          "precision": 0.4852,
+          "recall": 1.0,
+          "f1": 0.6534,
+          "threshold": 0.0288,
+          "n_total": 13795,
+          "n_pos": 6678
+        },
+        "M3": {
+          "roc_auc": 0.7248,
+          "pr_auc": 0.7591,
+          "precision": 0.4437,
+          "recall": 0.8492,
+          "f1": 0.5829,
+          "threshold": 0.0288,
+          "n_total": 13795,
+          "n_pos": 6678
+        },
+        "M4": {
+          "roc_auc": 0.6923,
+          "pr_auc": 0.7219,
+          "precision": 0.4435,
+          "recall": 0.8476,
+          "f1": 0.5823,
+          "threshold": 0.0288,
+          "n_total": 13795,
+          "n_pos": 6678
+        },
+        "M5": {
+          "roc_auc": 0.8116,
+          "pr_auc": 0.86,
+          "precision": 0.4841,
+          "recall": 1.0,
+          "f1": 0.6524,
+          "threshold": 0.0288,
+          "n_total": 13795,
+          "n_pos": 6678
+        },
+        "M1_shuffled": {
+          "roc_auc": 0.6376,
+          "pr_auc": 0.6506,
+          "precision": 0.4841,
+          "recall": 1.0,
+          "f1": 0.6524,
+          "threshold": 0.0288,
+          "n_total": 13795,
+          "n_pos": 6678
+        },
+        "delta_roc_auc_m1_vs_m2": 0.013
+      },
+      "benchmarks": [
+        {
+          "roc_auc": 0.9166,
+          "pr_auc": 0.9159,
+          "precision": 0.4776,
+          "recall": 1.0,
+          "f1": 0.6465,
+          "threshold": 0.0288,
+          "n_total": 3446,
+          "n_pos": 1623,
+          "benchmark": "PIC16F84-T100"
+        },
+        {
+          "roc_auc": 0.9223,
+          "pr_auc": 0.9337,
+          "precision": 0.5251,
+          "recall": 1.0,
+          "f1": 0.6886,
+          "threshold": 0.0288,
+          "n_total": 3449,
+          "n_pos": 1786,
+          "benchmark": "PIC16F84-T200"
+        },
+        {
+          "roc_auc": 0.9131,
+          "pr_auc": 0.9117,
+          "precision": 0.4812,
+          "recall": 1.0,
+          "f1": 0.6497,
+          "threshold": 0.0288,
+          "n_total": 3450,
+          "n_pos": 1637,
+          "benchmark": "PIC16F84-T300"
+        },
+        {
+          "roc_auc": 0.9135,
+          "pr_auc": 0.9113,
+          "precision": 0.4797,
+          "recall": 1.0,
+          "f1": 0.6484,
+          "threshold": 0.0288,
+          "n_total": 3450,
+          "n_pos": 1632,
+          "benchmark": "PIC16F84-T400"
+        }
+      ]
+    },
+    "RS232": {
+      "headline_threshold": 0.022540835354899015,
+      "median_threshold": 0.00836357477316424,
+      "metrics": {
+        "B0": {
+          "roc_auc": 0.7631,
+          "pr_auc": 0.832,
+          "precision": 0.6633,
+          "recall": 1.0,
+          "f1": 0.7976,
+          "threshold": 0.0225,
+          "n_total": 9827,
+          "n_pos": 6518
+        },
+        "M1": {
+          "roc_auc": 0.861,
+          "pr_auc": 0.931,
+          "precision": 0.7959,
+          "recall": 0.9302,
+          "f1": 0.8578,
+          "threshold": 0.0225,
+          "n_total": 9827,
+          "n_pos": 6518
+        },
+        "M2": {
+          "roc_auc": 0.8568,
+          "pr_auc": 0.9282,
+          "precision": 0.8081,
+          "recall": 0.8659,
+          "f1": 0.836,
+          "threshold": 0.0225,
+          "n_total": 9827,
+          "n_pos": 6518
+        },
+        "M3": {
+          "roc_auc": 0.8447,
+          "pr_auc": 0.9136,
+          "precision": 0.727,
+          "recall": 0.986,
+          "f1": 0.8369,
+          "threshold": 0.0225,
+          "n_total": 9827,
+          "n_pos": 6518
+        },
+        "M4": {
+          "roc_auc": 0.8387,
+          "pr_auc": 0.895,
+          "precision": 0.6628,
+          "recall": 0.9977,
+          "f1": 0.7964,
+          "threshold": 0.0225,
+          "n_total": 9827,
+          "n_pos": 6518
+        },
+        "M5": {
+          "roc_auc": 0.8765,
+          "pr_auc": 0.9339,
+          "precision": 0.7216,
+          "recall": 0.9943,
+          "f1": 0.8363,
+          "threshold": 0.0225,
+          "n_total": 9827,
+          "n_pos": 6518
+        },
+        "M1_shuffled": {
+          "roc_auc": 0.5739,
+          "pr_auc": 0.7695,
+          "precision": 0.6633,
+          "recall": 1.0,
+          "f1": 0.7976,
+          "threshold": 0.0225,
+          "n_total": 9827,
+          "n_pos": 6518
+        },
+        "delta_roc_auc_m1_vs_m2": 0.0042
+      },
+      "benchmarks": [
+        {
+          "roc_auc": 0.8612,
+          "pr_auc": 0.9208,
+          "precision": 0.6879,
+          "recall": 0.9215,
+          "f1": 0.7878,
+          "threshold": 0.0225,
+          "n_total": 743,
+          "n_pos": 433,
+          "benchmark": "RS232-T100"
+        },
+        {
+          "roc_auc": 0.8776,
+          "pr_auc": 0.9155,
+          "precision": 0.6186,
+          "recall": 0.9387,
+          "f1": 0.7458,
+          "threshold": 0.0225,
+          "n_total": 731,
+          "n_pos": 375,
+          "benchmark": "RS232-T200"
+        },
+        {
+          "roc_auc": 0.8576,
+          "pr_auc": 0.9083,
+          "precision": 0.6897,
+          "recall": 0.9424,
+          "f1": 0.7965,
+          "threshold": 0.0225,
+          "n_total": 674,
+          "n_pos": 382,
+          "benchmark": "RS232-T2100"
+        },
+        {
+          "roc_auc": 0.8618,
+          "pr_auc": 0.908,
+          "precision": 0.6783,
+          "recall": 0.9358,
+          "f1": 0.7865,
+          "threshold": 0.0225,
+          "n_total": 673,
+          "n_pos": 374,
+          "benchmark": "RS232-T2200"
+        },
+        {
+          "roc_auc": 0.8541,
+          "pr_auc": 0.9086,
+          "precision": 0.698,
+          "recall": 0.9223,
+          "f1": 0.7946,
+          "threshold": 0.0225,
+          "n_total": 676,
+          "n_pos": 386,
+          "benchmark": "RS232-T2300"
+        },
+        {
+          "roc_auc": 0.8633,
+          "pr_auc": 0.9157,
+          "precision": 0.7084,
+          "recall": 0.9289,
+          "f1": 0.8038,
+          "threshold": 0.0225,
+          "n_total": 700,
+          "n_pos": 408,
+          "benchmark": "RS232-T2400"
+        },
+        {
+          "roc_auc": 0.964,
+          "pr_auc": 0.9916,
+          "precision": 0.9767,
+          "recall": 0.9368,
+          "f1": 0.9564,
+          "threshold": 0.0225,
+          "n_total": 671,
+          "n_pos": 538,
+          "benchmark": "RS232-T300"
+        },
+        {
+          "roc_auc": 0.8919,
+          "pr_auc": 0.9131,
+          "precision": 0.5585,
+          "recall": 0.9357,
+          "f1": 0.6995,
+          "threshold": 0.0225,
+          "n_total": 675,
+          "n_pos": 311,
+          "benchmark": "RS232-T400"
+        },
+        {
+          "roc_auc": 0.9671,
+          "pr_auc": 0.9921,
+          "precision": 0.9604,
+          "recall": 0.9409,
+          "f1": 0.9505,
+          "threshold": 0.0225,
+          "n_total": 683,
+          "n_pos": 541,
+          "benchmark": "RS232-T500"
+        },
+        {
+          "roc_auc": 0.958,
+          "pr_auc": 0.9906,
+          "precision": 0.9624,
+          "recall": 0.9357,
+          "f1": 0.9489,
+          "threshold": 0.0225,
+          "n_total": 705,
+          "n_pos": 575,
+          "benchmark": "RS232-T600"
+        },
+        {
+          "roc_auc": 0.9649,
+          "pr_auc": 0.9922,
+          "precision": 0.9679,
+          "recall": 0.9459,
+          "f1": 0.9568,
+          "threshold": 0.0225,
+          "n_total": 705,
+          "n_pos": 573,
+          "benchmark": "RS232-T700"
+        },
+        {
+          "roc_auc": 0.792,
+          "pr_auc": 0.875,
+          "precision": 0.6601,
+          "recall": 0.875,
+          "f1": 0.7525,
+          "threshold": 0.0225,
+          "n_total": 739,
+          "n_pos": 424,
+          "benchmark": "RS232-T800"
+        },
+        {
+          "roc_auc": 0.9616,
+          "pr_auc": 0.9923,
+          "precision": 0.9772,
+          "recall": 0.9282,
+          "f1": 0.9521,
+          "threshold": 0.0225,
+          "n_total": 726,
+          "n_pos": 599,
+          "benchmark": "RS232-T900"
+        },
+        {
+          "roc_auc": 0.9616,
+          "pr_auc": 0.9923,
+          "precision": 0.9772,
+          "recall": 0.9282,
+          "f1": 0.9521,
+          "threshold": 0.0225,
+          "n_total": 726,
+          "n_pos": 599,
+          "benchmark": "RS232-T901"
+        }
+      ]
+    },
+    "wb_conmax": {
+      "headline_threshold": 0.017291010703080208,
+      "median_threshold": 0.03129353289951662,
+      "metrics": {
+        "B0": {
+          "roc_auc": 0.5852,
+          "pr_auc": 0.7209,
+          "precision": 0.7736,
+          "recall": 0.7364,
+          "f1": 0.7545,
+          "threshold": 0.0173,
+          "n_total": 119871,
+          "n_pos": 81524
+        },
+        "M1": {
+          "roc_auc": 0.6005,
+          "pr_auc": 0.7835,
+          "precision": 0.7186,
+          "recall": 0.8732,
+          "f1": 0.7884,
+          "threshold": 0.0173,
+          "n_total": 119871,
+          "n_pos": 81524
+        },
+        "M2": {
+          "roc_auc": 0.6344,
+          "pr_auc": 0.7955,
+          "precision": 0.7749,
+          "recall": 0.7462,
+          "f1": 0.7603,
+          "threshold": 0.0173,
+          "n_total": 119871,
+          "n_pos": 81524
+        },
+        "M3": {
+          "roc_auc": 0.424,
+          "pr_auc": 0.6784,
+          "precision": 0.5936,
+          "recall": 0.6587,
+          "f1": 0.6245,
+          "threshold": 0.0173,
+          "n_total": 119871,
+          "n_pos": 81524
+        },
+        "M4": {
+          "roc_auc": 0.4875,
+          "pr_auc": 0.6985,
+          "precision": 0.6332,
+          "recall": 0.7143,
+          "f1": 0.6713,
+          "threshold": 0.0173,
+          "n_total": 119871,
+          "n_pos": 81524
+        },
+        "M5": {
+          "roc_auc": 0.4506,
+          "pr_auc": 0.7157,
+          "precision": 0.6801,
+          "recall": 0.9867,
+          "f1": 0.8052,
+          "threshold": 0.0173,
+          "n_total": 119871,
+          "n_pos": 81524
+        },
+        "M1_shuffled": {
+          "roc_auc": 0.3794,
+          "pr_auc": 0.6467,
+          "precision": 0.6801,
+          "recall": 1.0,
+          "f1": 0.8096,
+          "threshold": 0.0173,
+          "n_total": 119871,
+          "n_pos": 81524
+        },
+        "delta_roc_auc_m1_vs_m2": -0.0339
+      },
+      "benchmarks": [
+        {
+          "roc_auc": 0.6535,
+          "pr_auc": 0.635,
+          "precision": 0.4569,
+          "recall": 0.9641,
+          "f1": 0.62,
+          "threshold": 0.0173,
+          "n_total": 59890,
+          "n_pos": 23394,
+          "benchmark": "wb_conmax-T200"
+        },
+        {
+          "roc_auc": 0.7238,
+          "pr_auc": 0.9848,
+          "precision": 0.9785,
+          "recall": 0.8366,
+          "f1": 0.902,
+          "threshold": 0.0173,
+          "n_total": 59981,
+          "n_pos": 58130,
+          "benchmark": "wb_conmax-T300"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "macro_average": {
+      "B0": {
+        "roc_auc": 0.6155,
+        "pr_auc": 0.5154,
+        "precision": 0.4834,
+        "recall": 0.9309,
+        "f1": 0.5574
+      },
+      "M1": {
+        "roc_auc": 0.6925,
+        "pr_auc": 0.6607,
+        "precision": 0.5044,
+        "recall": 0.9322,
+        "f1": 0.5821
+      },
+      "M2": {
+        "roc_auc": 0.7008,
+        "pr_auc": 0.6623,
+        "precision": 0.5201,
+        "recall": 0.8893,
+        "f1": 0.5685
+      },
+      "M3": {
+        "roc_auc": 0.6642,
+        "pr_auc": 0.5951,
+        "precision": 0.4447,
+        "recall": 0.8341,
+        "f1": 0.5183
+      },
+      "M4": {
+        "roc_auc": 0.67,
+        "pr_auc": 0.585,
+        "precision": 0.4382,
+        "recall": 0.8319,
+        "f1": 0.5191
+      },
+      "M5": {
+        "roc_auc": 0.6658,
+        "pr_auc": 0.6318,
+        "precision": 0.4744,
+        "recall": 0.971,
+        "f1": 0.5793
+      },
+      "M1_shuffled": {
+        "roc_auc": 0.5537,
+        "pr_auc": 0.5365,
+        "precision": 0.4601,
+        "recall": 1.0,
+        "f1": 0.5712
+      }
+    },
+    "micro_pooled": {
+      "B0": {
+        "roc_auc": 0.6846,
+        "pr_auc": 0.283,
+        "precision": 0.0209,
+        "recall": 0.8966,
+        "f1": 0.0408,
+        "threshold": 0.0257,
+        "n_total": 8974462,
+        "n_pos": 207763
+      },
+      "M1": {
+        "roc_auc": 0.2696,
+        "pr_auc": 0.0149,
+        "precision": 0.022,
+        "recall": 0.946,
+        "f1": 0.043,
+        "threshold": 0.0257,
+        "n_total": 8974462,
+        "n_pos": 207763
+      },
+      "M2": {
+        "roc_auc": 0.2807,
+        "pr_auc": 0.0156,
+        "precision": 0.0203,
+        "recall": 0.8697,
+        "f1": 0.0397,
+        "threshold": 0.0257,
+        "n_total": 8974462,
+        "n_pos": 207763
+      },
+      "M3": {
+        "roc_auc": 0.5776,
+        "pr_auc": 0.0514,
+        "precision": 0.02,
+        "recall": 0.8562,
+        "f1": 0.039,
+        "threshold": 0.0257,
+        "n_total": 8974462,
+        "n_pos": 207763
+      },
+      "M4": {
+        "roc_auc": 0.629,
+        "pr_auc": 0.0548,
+        "precision": 0.0204,
+        "recall": 0.8752,
+        "f1": 0.0398,
+        "threshold": 0.0257,
+        "n_total": 8974462,
+        "n_pos": 207763
+      },
+      "M5": {
+        "roc_auc": 0.3921,
+        "pr_auc": 0.0209,
+        "precision": 0.0228,
+        "recall": 0.9853,
+        "f1": 0.0446,
+        "threshold": 0.0257,
+        "n_total": 8974462,
+        "n_pos": 207763
+      },
+      "M1_shuffled": {
+        "roc_auc": 0.3415,
+        "pr_auc": 0.0516,
+        "precision": 0.0232,
+        "recall": 1.0,
+        "f1": 0.0453,
+        "threshold": 0.0257,
+        "n_total": 8974462,
+        "n_pos": 207763
+      }
+    },
+    "delta_roc_auc_macro": -0.0083
+  }
+}
